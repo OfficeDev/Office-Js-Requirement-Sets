@@ -1,0 +1,124 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "type": "object",
+    "properties": {
+        "products": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "type": "string"
+                    },
+                    "hostName": {
+                        "type": "string"
+                    },
+                    "platforms": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "code": {
+                                    "type": "string"
+                                },
+                                "title": {
+                                    "type": "string"
+                                },
+                                "firstBuild": {
+                                    "type": "null"
+                                },
+                                "firstVersion": {
+                                    "type": "null"
+                                },
+                                "supportedAppTypes": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    }
+                                },
+                                "supportedExtensionPoints": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "code": {
+                                                "type": "string"
+                                            },
+                                            "firstBuild": {
+                                                "type": "null"
+                                            },
+                                            "firstVersion": {
+                                                "type": "null"
+                                            }
+                                        },
+                                        "required": [
+                                                     "code",
+                                                     "firstBuild",
+                                                     "firstVersion"
+                                                     ]
+                                    }
+                                },
+                                "supportedRequirementSets": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "name": {
+                                                "type": "string"
+                                            },
+                                            "shortVersion": {
+                                                "type": "string"
+                                            },
+                                            "firstBuild": {
+                                                "type": "null"
+                                            },
+                                            "firstVersion": {
+                                                "type": "null"
+                                            },
+                                            "availability": {
+                                                "type": "string"
+                                            },
+                                            "multiBuildInfo": {
+                                                "type": "string"
+                                            }
+                                            
+                                        },
+                                        "required": [
+                                                     "name",
+                                                     "shortVersion",
+                                                     "firstBuild",
+                                                     "firstVersion",
+                                                     "availability"
+                                                     ]
+                                    }
+                                },
+                                "supportedMethods": {
+                                    "type": "array",
+                                    "items": {}
+                                }
+                            },
+                            "required": [
+                                         "code",
+                                         "title",
+                                         "firstBuild",
+                                         "firstVersion",
+                                         "supportedAppTypes",
+                                         "supportedExtensionPoints",
+                                         "supportedRequirementSets",
+                                         "supportedMethods"
+                                         ]
+                        }
+                    }
+                },
+                "required": [
+                             "code",
+                             "hostName",
+                             "platforms"
+                             ]
+            }
+        }
+    },
+    "required": [
+                 "products"
+                 ]
+}
