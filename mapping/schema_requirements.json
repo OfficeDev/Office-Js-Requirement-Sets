@@ -1,124 +1,213 @@
 {
     "$schema": "http://json-schema.org/schema#",
+    "id": "http://schemas.microsoft.com/office/jsapisupportmanifest/1.0",
+    "title": "Office clients JavaScript API support manifest schema.",
+    "description": "Schema that describes JSON manifest of currently supported JavaScript API by given Office client.",
+    "definitions": {
+        "appType": {
+            "type": "string",
+            "enum": [
+                "ContentApp",
+                "TaskPaneApp"
+            ]
+        },
+        "availability": {
+            "type": "string",
+            "enum": [
+                "GA",
+                "Beta"
+            ]
+        },
+        "buildVersion": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "build": {
+                    "$ref": "#/definitions/version"
+                },
+                "version": {
+                    "oneOf": [
+                        {
+                            "$ref": "#/definitions/version"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ]
+                }
+            }
+        },
+        "buildVersionRange": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "from": {
+                    "$ref": "#/definitions/buildVersion"
+                },
+                "to": {
+                    "$ref": "#/definitions/buildVersion"
+                },
+                "excludeFrom": {
+                    "type": "boolean"
+                },
+                "excludeTo": {
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "begin"
+            ]
+        },
+        "extensionPoint": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "type": "string"
+                },
+                "supportedProductVersions": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/buildVersionRange"
+                    }
+                }
+            },
+            "required": [
+                "code"
+            ]
+        },
+        "method": {
+            "type": "object",
+            "properties": {
+                "availability": {
+                    "$ref": "#/definitions/availability"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "supportedProductVersions": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/buildVersionRange"
+                    }
+                },
+                "apiVersion": {
+                    "$ref": "#/definitions/version"
+                }
+            },
+            "required": [
+                "availability",
+                "name"
+            ]
+        },
+        "platform": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "type": "string"
+                },
+                "supportedAppTypes": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/appType"
+                    }
+                },
+                "supportedExtensionPoints": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/extensionPoint"
+                    }
+                },
+                "supportedMethods": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/method"
+                    }
+                },
+                "supportedRequirementSets": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/requirementSet"
+                    }
+                },
+                "supportedProductVersions": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/buildVersionRange"
+                    }
+                },
+                "title": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "code",
+                "supportedAppTypes",
+                "supportedExtensionPoints",
+                "supportedMethods",
+                "supportedRequirementSets"
+            ]
+        },
+        "product": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "type": "string"
+                },
+                "hostName": {
+                    "type": "string"
+                },
+                "platforms": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/platform"
+                    }
+                }
+            },
+            "required": [
+                "code",
+                "hostName",
+                "platforms"
+            ]
+        },
+        "requirementSet": {
+            "type": "object",
+            "properties": {
+                "availability": {
+                    "$ref": "#/definitions/availability"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "supportedProductVersions": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/buildVersionRange"
+                    }
+                },
+                "apiVersion": {
+                    "$ref": "#/definitions/version"
+                }
+            },
+            "required": [
+                "availability",
+                "name"
+            ]
+        },
+        "version": {
+            "type": "string",
+            "pattern": "^[0-9]+(\\.[0-9]+){0,3}$"
+        }
+    },
     "type": "object",
     "properties": {
         "products": {
             "type": "array",
             "items": {
-                "type": "object",
-                "properties": {
-                    "code": {
-                        "type": "string"
-                    },
-                    "hostName": {
-                        "type": "string"
-                    },
-                    "platforms": {
-                        "type": "array",
-                        "items": {
-                            "type": "object",
-                            "properties": {
-                                "code": {
-                                    "type": "string"
-                                },
-                                "title": {
-                                    "type": "string"
-                                },
-                                "firstBuild": {
-                                    "type": "null"
-                                },
-                                "firstVersion": {
-                                    "type": "null"
-                                },
-                                "supportedAppTypes": {
-                                    "type": "array",
-                                    "items": {
-                                        "type": "string"
-                                    }
-                                },
-                                "supportedExtensionPoints": {
-                                    "type": "array",
-                                    "items": {
-                                        "type": "object",
-                                        "properties": {
-                                            "code": {
-                                                "type": "string"
-                                            },
-                                            "firstBuild": {
-                                                "type": "null"
-                                            },
-                                            "firstVersion": {
-                                                "type": "null"
-                                            }
-                                        },
-                                        "required": [
-                                                     "code",
-                                                     "firstBuild",
-                                                     "firstVersion"
-                                                     ]
-                                    }
-                                },
-                                "supportedRequirementSets": {
-                                    "type": "array",
-                                    "items": {
-                                        "type": "object",
-                                        "properties": {
-                                            "name": {
-                                                "type": "string"
-                                            },
-                                            "shortVersion": {
-                                                "type": "string"
-                                            },
-                                            "firstBuild": {
-                                                "type": "null"
-                                            },
-                                            "firstVersion": {
-                                                "type": "null"
-                                            },
-                                            "availability": {
-                                                "type": "string"
-                                            },
-                                            "multiBuildInfo": {
-                                                "type": "string"
-                                            }
-                                            
-                                        },
-                                        "required": [
-                                                     "name",
-                                                     "shortVersion",
-                                                     "firstBuild",
-                                                     "firstVersion",
-                                                     "availability"
-                                                     ]
-                                    }
-                                },
-                                "supportedMethods": {
-                                    "type": "array",
-                                    "items": {}
-                                }
-                            },
-                            "required": [
-                                         "code",
-                                         "title",
-                                         "firstBuild",
-                                         "firstVersion",
-                                         "supportedAppTypes",
-                                         "supportedExtensionPoints",
-                                         "supportedRequirementSets",
-                                         "supportedMethods"
-                                         ]
-                        }
-                    }
-                },
-                "required": [
-                             "code",
-                             "hostName",
-                             "platforms"
-                             ]
+                "$ref": "#/definitions/product"
             }
         }
     },
     "required": [
-                 "products"
-                 ]
+        "products"
+    ]
 }
