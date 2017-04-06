@@ -4045,36 +4045,57 @@
 					"firstBuild": null,
 					"firstVersion": null,
 					"supportedAppTypes": [
-						"ContentApp",
-						"TaskPaneApp"
+						"MailApp"
 					],
 					"supportedExtensionPoints": [{
-						"code": "addin_command",
+						"code": "MessageRead",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "ComposeCommandSurface",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "Modules",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "AppointmentOrganizer",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "AttendeeCommandSurface",
 						"firstBuild": null,
 						"firstVersion": null
 					}],
 					"supportedRequirementSets": [{
 						"name": "Mailbox",
+						"shortVersion": "1.0",
+						"firstBuild": null,
+						"firstVersion": null,
+						"availability": "GA"
+					}, {
+						"name": "Mailbox",
 						"shortVersion": "1.1",
-						"firstBuild": "15.0.847.0",
+						"firstBuild": null,
 						"firstVersion": null,
 						"availability": "GA"
 					}, {
 						"name": "Mailbox",
 						"shortVersion": "1.2",
-						"firstBuild": "15.1.135.0",
+						"firstBuild": null,
 						"firstVersion": null,
 						"availability": "GA"
 					}, {
 						"name": "Mailbox",
 						"shortVersion": "1.3",
-						"firstBuild": "15.1.225.0",
+						"firstBuild": null,
 						"firstVersion": null,
 						"availability": "GA"
 					}, {
 						"name": "Mailbox",
 						"shortVersion": "1.4",
-						"firstBuild": "15.1.448.0",
+						"firstBuild": null,
 						"firstVersion": null,
 						"availability": "GA"
 					}],
@@ -4085,15 +4106,36 @@
 					"firstBuild": null,
 					"firstVersion": null,
 					"supportedAppTypes": [
-						"ContentApp",
-						"TaskPaneApp"
+						"MailApp"
 					],
 					"supportedExtensionPoints": [{
-						"code": "addin_command",
+						"code": "MessageRead",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "ComposeCommandSurface",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "Modules",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "AppointmentOrganizer",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "AttendeeCommandSurface",
 						"firstBuild": null,
 						"firstVersion": null
 					}],
 					"supportedRequirementSets": [{
+						"name": "Mailbox",
+						"shortVersion": "1.0",
+						"firstBuild": null,
+						"firstVersion": null,
+						"availability": "GA"
+					}, {
 						"name": "Mailbox",
 						"shortVersion": "1.1",
 						"firstBuild": null,
@@ -4125,15 +4167,36 @@
 					"firstBuild": null,
 					"firstVersion": null,
 					"supportedAppTypes": [
-						"ContentApp",
-						"TaskPaneApp"
+						"MailApp"
 					],
 					"supportedExtensionPoints": [{
-						"code": "addin_command",
+						"code": "MessageRead",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "ComposeCommandSurface",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "Modules",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "AppointmentOrganizer",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "AttendeeCommandSurface",
 						"firstBuild": null,
 						"firstVersion": null
 					}],
 					"supportedRequirementSets": [{
+						"name": "Mailbox",
+						"shortVersion": "1.0",
+						"firstBuild": null,
+						"firstVersion": null,
+						"availability": "GA"
+					}, {
 						"name": "Mailbox",
 						"shortVersion": "1.1",
 						"firstBuild": null,
@@ -4165,15 +4228,36 @@
 					"firstBuild": null,
 					"firstVersion": null,
 					"supportedAppTypes": [
-						"ContentApp",
-						"TaskPaneApp"
+						"MailApp"
 					],
 					"supportedExtensionPoints": [{
-						"code": "addin_command",
+						"code": "MessageRead",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "ComposeCommandSurface",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "Modules",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "AppointmentOrganizer",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "AttendeeCommandSurface",
 						"firstBuild": null,
 						"firstVersion": null
 					}],
 					"supportedRequirementSets": [{
+						"name": "Mailbox",
+						"shortVersion": "1.0",
+						"firstBuild": null,
+						"firstVersion": null,
+						"availability": "GA"
+					}, {
 						"name": "Mailbox",
 						"shortVersion": "1.1",
 						"firstBuild": null,
