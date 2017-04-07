@@ -2,7 +2,7 @@
 	"products": [
 		{
 			"code": "Excel",
-			"hostName": "Workbook",
+			"host": "Workbook",
 			"platforms": [
 				{
 					"code": "iOS",
@@ -1757,7 +1757,7 @@
 		},
 		{
 			"code": "Word",
-			"hostName": "Document",
+			"host": "Document",
 			"platforms": [
 				{
 					"code": "iOS",
@@ -4378,7 +4378,7 @@
 		},
 		{
 			"code": "PowerPoint",
-			"hostName": "Presentation",
+			"host": "Presentation",
 			"platforms": [
 				{
 					"code": "iOS",
@@ -5004,7 +5004,7 @@
 		},
 		{
 			"code": "Access",
-			"hostName": "Database",
+			"host": "Database",
 			"platforms": [
 				{
 					"code": "Win32",
@@ -5147,7 +5147,7 @@
 		},
 		{
 			"code": "Project",
-			"hostName": "Project",
+			"host": "Project",
 			"platforms": [
 				{
 					"code": "Win32",
@@ -5270,7 +5270,7 @@
 		},
 		{
 			"code": "Outlook",
-			"hostName": "Mailbox",
+			"host": "Mailbox",
 			"platforms": [
 				{
 					"code": "Win32",

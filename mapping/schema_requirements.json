@@ -75,6 +75,18 @@
                 "code"
             ]
         },
+        "clientHost": {
+            "type": "string",
+            "enum": [
+                "Database",
+                "Document",
+                "Mailbox",
+                "Notebook",
+                "Presentation",
+                "Project",
+                "Workbook"
+            ]
+        },
         "method": {
             "type": "object",
             "properties": {
@@ -153,8 +165,8 @@
                 "code": {
                     "type": "string"
                 },
-                "hostName": {
-                    "type": "string"
+                "host": {
+                    "$ref": "#/definitions/clientHost"
                 },
                 "platforms": {
                     "type": "array",
@@ -165,7 +177,7 @@
             },
             "required": [
                 "code",
-                "hostName",
+                "host",
                 "platforms"
             ]
         },
