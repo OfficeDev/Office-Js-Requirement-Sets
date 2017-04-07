@@ -115,7 +115,7 @@
             "type": "object",
             "properties": {
                 "code": {
-                    "type": "string"
+                    "$ref": "#/definitions/platformCode"
                 },
                 "supportedAppTypes": {
                     "type": "array",
@@ -159,11 +159,23 @@
                 "supportedRequirementSets"
             ]
         },
+        "platformCode": {
+            "type": "string",
+            "enum": [
+                "And",
+                "Any",
+                "IOS",
+                "Mac",
+                "MX",
+                "WAC",
+                "Win32"
+            ]
+        },
         "product": {
             "type": "object",
             "properties": {
                 "code": {
-                    "type": "string"
+                    "$ref": "#/definitions/productCode"
                 },
                 "host": {
                     "$ref": "#/definitions/clientHost"
@@ -179,6 +191,20 @@
                 "code",
                 "host",
                 "platforms"
+            ]
+        },
+        "productCode": {
+            "type": "string",
+            "enum": [
+                "Access",
+                "Excel",
+                "OneNote",
+                "Outlook",
+                "PowerBI",
+                "PowerPoint",
+                "Project",
+                "Teams",
+                "Word"
             ]
         },
         "requirementSet": {

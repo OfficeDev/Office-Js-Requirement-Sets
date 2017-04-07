@@ -5,7 +5,7 @@
 			"host": "Workbook",
 			"platforms": [
 				{
-					"code": "iOS",
+					"code": "IOS",
 					"title": "Excel for iOS",
 					"supportedProductVersions": [
 						{
@@ -1760,7 +1760,7 @@
 			"host": "Document",
 			"platforms": [
 				{
-					"code": "iOS",
+					"code": "IOS",
 					"title": "Word for iOS",
 					"supportedProductVersions": [
 						{
@@ -4381,7 +4381,7 @@
 			"host": "Presentation",
 			"platforms": [
 				{
-					"code": "iOS",
+					"code": "IOS",
 					"title": "PowerPoint for iOS",
 					"supportedAppTypes": [
 						"ContentApp",
@@ -5377,7 +5377,7 @@
 					"supportedMethods": []
 				},
 				{
-					"code": "iOS",
+					"code": "IOS",
 					"title": " Outlook for iOS",
 					"supportedAppTypes": [
 						"ContentApp",
