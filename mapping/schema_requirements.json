@@ -8,7 +8,8 @@
             "type": "string",
             "enum": [
                 "ContentApp",
-                "TaskPaneApp"
+                "TaskPaneApp",
+                "MailApp"
             ]
         },
         "availability": {
@@ -114,6 +115,10 @@
         "platform": {
             "type": "object",
             "properties": {
+                "availability": {
+                    "$ref": "#/definitions/availability",
+                    "default": "GA"
+                },
                 "code": {
                     "$ref": "#/definitions/platformCode"
                 },
@@ -174,6 +179,10 @@
         "product": {
             "type": "object",
             "properties": {
+                "availability": {
+                    "$ref": "#/definitions/availability",
+                    "default": "GA"
+                },
                 "code": {
                     "$ref": "#/definitions/productCode"
                 },
