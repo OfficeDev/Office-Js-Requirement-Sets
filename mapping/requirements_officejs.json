@@ -1265,9 +1265,9 @@
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.4",
-							"firstBuild": null,
+							"firstBuild": "16.0.7870.2024",
 							"firstVersion": "1702",
-							"availability": "Beta"
+							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
@@ -1279,6 +1279,8 @@
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.6",
+							"firstBuild": null,
+							"firstVersion": "1702",							
 							"availability": "Beta"
 						},
 						{
