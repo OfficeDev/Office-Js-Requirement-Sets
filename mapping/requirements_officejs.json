@@ -4012,8 +4012,8 @@
 							"supportedProductVersions": [
 								{
 									"from": {
-										"build": "16.0.8067.2043 ",
-										"version": "1703"
+										"build": "16.0.7766.2080",
+										"version": "1612"
 									}
 								}
 							],
