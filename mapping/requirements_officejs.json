@@ -1262,7 +1262,6 @@
 							],
 							"availability": "GA"
 						},
-,
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.4",
