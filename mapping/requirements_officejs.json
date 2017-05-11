@@ -5273,14 +5273,29 @@
 					"code": "Win32",
 					"title": "Outlook for Windows",
 					"supportedAppTypes": [
-						"ContentApp",
-						"TaskPaneApp"
+						"MailApp"
 					],
-					"supportedExtensionPoints": [
-						{
-							"code": "addin_command"
-						}
-					],
+					"supportedExtensionPoints": [{
+						"code": "MessageRead",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "ComposeCommandSurface",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "Modules",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "AppointmentOrganizer",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "AttendeeCommandSurface",
+						"firstBuild": null,
+						"firstVersion": null
+					}],
 					"supportedRequirementSets": [
 						{
 							"name": "Mailbox",
@@ -5341,14 +5356,29 @@
 					"code": "Mac",
 					"title": " Outlook for Mac",
 					"supportedAppTypes": [
-						"ContentApp",
-						"TaskPaneApp"
+						"MailApp"
 					],
-					"supportedExtensionPoints": [
-						{
-							"code": "addin_command"
-						}
-					],
+					"supportedExtensionPoints": [{
+						"code": "MessageRead",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "ComposeCommandSurface",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "Modules",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "AppointmentOrganizer",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "AttendeeCommandSurface",
+						"firstBuild": null,
+						"firstVersion": null
+					}],
 					"supportedRequirementSets": [
 						{
 							"name": "Mailbox",
@@ -5377,14 +5407,29 @@
 					"code": "IOS",
 					"title": " Outlook for iOS",
 					"supportedAppTypes": [
-						"ContentApp",
-						"TaskPaneApp"
+						"MailApp"
 					],
-					"supportedExtensionPoints": [
-						{
-							"code": "addin_command"
-						}
-					],
+					"supportedExtensionPoints": [{
+						"code": "MessageRead",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "ComposeCommandSurface",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "Modules",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "AppointmentOrganizer",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "AttendeeCommandSurface",
+						"firstBuild": null,
+						"firstVersion": null
+					}],
 					"supportedRequirementSets": [
 						{
 							"name": "Mailbox",
@@ -5413,14 +5458,29 @@
 					"code": "WAC",
 					"title": " Outlook for Online",
 					"supportedAppTypes": [
-						"ContentApp",
-						"TaskPaneApp"
+						"MailApp"
 					],
-					"supportedExtensionPoints": [
-						{
-							"code": "addin_command"
-						}
-					],
+					"supportedExtensionPoints": [{
+						"code": "MessageRead",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "ComposeCommandSurface",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "Modules",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "AppointmentOrganizer",
+						"firstBuild": null,
+						"firstVersion": null
+					}, {
+						"code": "AttendeeCommandSurface",
+						"firstBuild": null,
+						"firstVersion": null
+					}],
 					"supportedRequirementSets": [
 						{
 							"name": "Mailbox",
