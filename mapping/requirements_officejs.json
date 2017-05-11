@@ -1265,24 +1265,55 @@
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.4",
-							"firstBuild": "16.0.7870.2024",
-							"firstVersion": "1702",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.0.7870.2024",
+										"version": "1701"
+									}
+								}
+							],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.5",
-							"firstBuild": null,
-							"firstVersion": "1702",
-							"availability": "Beta"
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.0.8067.2070",
+										"version": "1703"
+									}
+								}
+							],
+							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.6",
-							"firstBuild": null,
-							"firstVersion": "1702",							
-							"availability": "Beta"
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.0.8201.2001",
+										"version": "1704"
+									}
+								}
+							],
+							"availability": "GA"
 						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.7",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.0.8201.2001",
+										"version": "1704"
+									}
+								}
+							],
+							"availability": "GA"
+						},		
 						{
 							"name": "BindingEvents",
 							"availability": "GA"
@@ -1457,6 +1488,16 @@
 							"availability": "GA"
 						},
 						{
+							"name": "Settings.refreshAsync",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},						
+						{
+							"name": "Settings.removeHandlerAsync",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},						
+						{
 							"name": "TableBinding.addColumnsAsync",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -1523,6 +1564,7 @@
 					"supportedRequirementSets": [
 						{
 							"name": "ExcelApi",
+							"apiVersion": "1.1",							
 							"availability": "GA"
 						},
 						{
@@ -1532,73 +1574,102 @@
 						},
 						{
 							"name": "ExcelApi",
-							"firstBuild": null,
-							"firstVersion": "1608",
+							"apiVersion": "1.3",
+							"availability": "GA"
+						},						
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.4",
 							"availability": "GA"
 						},
 						{
+							"name": "ExcelApi",
+							"apiVersion": "1.5",
+							"availability": "GA"
+						},												
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.6",
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.7",
+							"availability": "beta"
+						},								
+						{
 							"name": "BindingEvents",
+							"apiVersion": "1.1",							
 							"availability": "GA"
 						},
 						{
 							"name": "DialogApi",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.0.4855.1000",
-										"version": null
-									}
-								}
-							],
+							"apiVersion": "1.1",							
 							"availability": "GA"
 						},
 						{
 							"name": "DocumentEvents",
+							"apiVersion": "1.1",							
+							"availability": "GA"
+						},
+						{
+							"name": "AddinCommands",
+							"apiVersion": "1.1",							
 							"availability": "GA"
 						},
 						{
 							"name": "MatrixBindings",
+							"apiVersion": "1.1",							
 							"availability": "GA"
 						},
 						{
 							"name": "MatrixCoercion",
+							"apiVersion": "1.1",							
 							"availability": "GA"
 						},
 						{
 							"name": "Selection",
+							"apiVersion": "1.1",							
 							"availability": "GA"
 						},
 						{
 							"name": "TableBindings",
+							"apiVersion": "1.1",							
 							"availability": "GA"
 						},
 						{
 							"name": "TableCoercion",
+							"apiVersion": "1.1",							
 							"availability": "GA"
 						},
 						{
 							"name": "TextBindings",
+							"apiVersion": "1.1",							
+							"availability": "GA"
+						},
+						{
+							"name": "Settings",
+							"apiVersion": "1.1",							
 							"availability": "GA"
 						},
 						{
 							"name": "TextCoercion",
+							"apiVersion": "1.1",							
 							"availability": "GA"
 						},
 						{
 							"name": "CompressedFile",
+							"apiVersion": "1.1",							
 							"availability": "GA"
 						},
 						{
 							"name": "ImageCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
-								}
-							],
+							"availability": "GA"
+						},
+						{
+							"name": "File",
+							"apiVersion": "1.1",							
 							"availability": "GA"
 						}
 					],
@@ -1644,6 +1715,21 @@
 							"availability": "GA"
 						},
 						{
+							"name": "Dialog.addEventHandler",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "Dialog.close",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "Dialog.sendMessage",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},												
+						{
 							"name": "Document.addHandlerAsync",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -1658,6 +1744,21 @@
 							"apiVersion": "1.1",
 							"availability": "GA"
 						},
+						{
+							"name": "Document.getFileAsync",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "File.getSliceAsync",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},												
+						{
+							"name": "File.closeAsync",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},												
 						{
 							"name": "Document.goToByIdAsync",
 							"apiVersion": "1.1",
@@ -1752,7 +1853,22 @@
 							"name": "TextBinding.setDataAsync",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						}
+						},
+						{
+							"name": "Ui.displayDialogAsync",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},	
+						{
+							"name": "Ui.messageParent",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "Ui.addEventHandler",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						}																	
 					]
 				}
 			]
@@ -1814,7 +1930,7 @@
 							"supportedProductVersions": [
 								{
 									"from": {
-										"build": "2.0",
+										"build": "2.22",
 										"version": null
 									}
 								}
@@ -4012,13 +4128,13 @@
 							"supportedProductVersions": [
 								{
 									"from": {
-										"build": "16.0.7766.2080",
+										"build": "16.0.7668.1000",
 										"version": "1612"
 									}
 								}
 							],
 							"availability": "GA"
-						},
+						},																						
 						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
