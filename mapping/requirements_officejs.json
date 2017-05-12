@@ -1226,6 +1226,7 @@
 					"supportedRequirementSets": [
 						{
 							"name": "ExcelApi",
+							"apiVersion": "1.1",							
 							"supportedProductVersions": [
 								{
 									"from": {
@@ -1312,12 +1313,8 @@
 									}
 								}
 							],
-							"availability": "GA"
+							"availability": "Beta"
 						},		
-						{
-							"name": "BindingEvents",
-							"availability": "GA"
-						},
 						{
 							"name": "DialogApi",
 							"supportedProductVersions": [
@@ -1341,37 +1338,60 @@
 							"availability": "GA"
 						},
 						{
+							"name": "BindingEvents",
+							"apiVersion": "1.1",							
+							"availability": "GA"
+						},						
+						{
 							"name": "DocumentEvents",
+							"apiVersion": "1.1",							
 							"availability": "GA"
 						},
 						{
 							"name": "MatrixBindings",
+							"apiVersion": "1.1",							
 							"availability": "GA"
 						},
 						{
 							"name": "MatrixCoercion",
+							"apiVersion": "1.1",							
 							"availability": "GA"
 						},
 						{
+							"name": "Settings",
+							"apiVersion": "1.1",							
+							"availability": "GA"
+						},						
+						{
 							"name": "Selection",
+							"apiVersion": "1.1",							
 							"availability": "GA"
 						},
 						{
 							"name": "TableBindings",
+							"apiVersion": "1.1",							
 							"availability": "GA"
 						},
 						{
 							"name": "TableCoercion",
+							"apiVersion": "1.1",							
 							"availability": "GA"
 						},
 						{
 							"name": "TextBindings",
+							"apiVersion": "1.1",							
 							"availability": "GA"
 						},
 						{
 							"name": "TextCoercion",
+							"apiVersion": "1.1",							
 							"availability": "GA"
 						},
+						{
+							"name": "AddinCommands",
+							"apiVersion": "1.1",							
+							"availability": "GA"
+						},						
 						{
 							"name": "ImageCoercion",
 							"apiVersion": "1.1",
@@ -1486,17 +1506,7 @@
 							"name": "Settings.set",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						},
-						{
-							"name": "Settings.refreshAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},						
-						{
-							"name": "Settings.removeHandlerAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},						
+						},											
 						{
 							"name": "TableBinding.addColumnsAsync",
 							"apiVersion": "1.1",
@@ -1548,7 +1558,7 @@
 							"availability": "GA"
 						}
 					]
-				},
+				},	
 				{
 					"code": "WAC",
 					"title": "Excel Online",
@@ -1804,6 +1814,21 @@
 							"apiVersion": "1.1",
 							"availability": "GA"
 						},
+						{
+							"name": "Settings.refreshAsync",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},						
+						{
+							"name": "Settings.addHandlerAsync",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},						
+						{
+							"name": "Settings.removeHandlerAsync",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},												
 						{
 							"name": "TableBinding.addColumnsAsync",
 							"apiVersion": "1.1",
@@ -2097,7 +2122,7 @@
 							"name": "Selection",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [
-								{
+								{ 
 									"from": {
 										"build": "1.18",
 										"version": null
