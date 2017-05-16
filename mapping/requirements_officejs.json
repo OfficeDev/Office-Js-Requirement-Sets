@@ -219,7 +219,20 @@
 								}
 							],
 							"availability": "GA"
-						}
+						},
+						{
+							"name": "AddinCommands",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "2.22",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						}						
 					],
 					"supportedMethods": [
 						{
@@ -816,7 +829,20 @@
 								}
 							],
 							"availability": "GA"
-						}
+						},
+						{
+							"name": "AddinCommands",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.32",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						}						
 					],
 					"supportedMethods": [
 						{
@@ -1723,21 +1749,6 @@
 							"name": "Bindings.releaseByIdAsync",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						},
-						{
-							"name": "Dialog.addEventHandler",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Dialog.close",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Dialog.sendMessage",
-							"apiVersion": "1.1",
-							"availability": "GA"
 						},												
 						{
 							"name": "Document.addHandlerAsync",
@@ -1876,21 +1887,6 @@
 						},
 						{
 							"name": "TextBinding.setDataAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Ui.displayDialogAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},	
-						{
-							"name": "Ui.messageParent",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Ui.addEventHandler",
 							"apiVersion": "1.1",
 							"availability": "GA"
 						}																	
@@ -2208,7 +2204,20 @@
 								}
 							],
 							"availability": "GA"
-						}
+						},
+						{
+							"name": "AddinCommands",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "2.22",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						}						
 					],
 					"supportedMethods": [
 						{
@@ -3130,7 +3139,20 @@
 								}
 							],
 							"availability": "GA"
-						}
+						},
+						{
+							"name": "AddinCommands",
+							"apiVersion": ".1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.32",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						}						
 					],
 					"supportedMethods": [
 						{
@@ -3795,6 +3817,11 @@
 							"availability": "GA"
 						},
 						{
+							"name": "CustomXmlParts",
+							"apiVersion": "1.2",
+							"availability": "GA"
+						},						
+						{
 							"name": "DocumentEvents",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -3867,6 +3894,11 @@
 						{
 							"name": "TextFile",
 							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "WordApiNewDoc",
+							"apiVersion": "1.2",
 							"availability": "GA"
 						}
 					],
@@ -4272,7 +4304,12 @@
 							"name": "TextFile",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						}
+						},
+						{
+							"name": "AddinCommands",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						}						
 					],
 					"supportedMethods": [
 						{
@@ -4577,6 +4614,11 @@
 							"availability": "GA"
 						},
 						{
+							"name": "AddinCommands",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},						
+						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
 							"availability": "GA",
@@ -4847,12 +4889,12 @@
 							"availability": "GA"
 						},
 						{
-							"name": "CompressedFile",
+							"name": "AddinCommands",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						},
+						},						
 						{
-							"name": "DocumentEvents",
+							"name": "CompressedFile",
 							"apiVersion": "1.1",
 							"availability": "GA"
 						},
@@ -4863,11 +4905,6 @@
 						},
 						{
 							"name": "ImageCoercion",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "PdfFile",
 							"apiVersion": "1.1",
 							"availability": "GA"
 						},
@@ -5042,6 +5079,11 @@
 							"availability": "GA"
 						},
 						{
+							"name": "AddinCommands",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},						
+						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
 							"availability": "GA",
@@ -5141,12 +5183,71 @@
 			]
 		},
 		{
+			"code": "OneNote",
+			"host": "OneNote",
+			"platforms": [
+				{
+					"code": "WAC",
+					"title": "OneNote for Online",
+					"supportedAppTypes": [
+						"ContentApp",
+						"TaskPaneApp"
+					],
+					"supportedExtensionPoints": [
+						{
+							"code": "addin_command"
+						}
+					],
+					"supportedRequirementSets": [
+						{
+							"name": "OneNoteApi",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "DocumentEvents",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "Settings",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "TextCoercion",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "HtmlCoercion",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "ImageCoercion",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "DialogApi",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						}												
+					],
+					"supportedMethods": [
+						
+					]
+				}
+			]
+		},		
+		{
 			"code": "Access",
 			"host": "Database",
 			"platforms": [
 				{
-					"code": "Win32",
-					"title": "Access for Windows",
+					"code": "WAC",
+					"title": "Access for Online",
 					"supportedAppTypes": [
 						"ContentApp"
 					],
@@ -5176,11 +5277,16 @@
 							"name": "TableCoercion",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						}
+						},
+						{
+							"name": "DialogApi",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						}						
 					],
 					"supportedMethods": [
 						{
-							"name": "Document.addHandlerAsync",
+							"name": "Bindings.addHandlerAsync",
 							"apiVersion": "1.1",
 							"availability": "GA"
 						},
@@ -5188,7 +5294,7 @@
 							"name": "Bindings.addFromNamedItemAsync",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						},
+						},						
 						{
 							"name": "Bindings.addFromPromptAsync",
 							"apiVersion": "1.1",
@@ -5304,7 +5410,12 @@
 							"name": "TextCoercion",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						}
+						},
+						{
+							"name": "DialogApi",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						}						
 					],
 					"supportedMethods": [
 						{
