@@ -38,7 +38,7 @@
                 }
             }
         },
-        "buildVersionRange": {
+        "buildVersionInterval": {
             "type": "object",
             "additionalProperties": false,
             "properties": {
@@ -54,10 +54,7 @@
                 "excludeTo": {
                     "type": "boolean"
                 }
-            },
-            "required": [
-                "begin"
-            ]
+            }
         },
         "extensionPoint": {
             "type": "object",
@@ -68,7 +65,7 @@
                 "supportedProductVersions": {
                     "type": "array",
                     "items": {
-                        "$ref": "#/definitions/buildVersionRange"
+                        "$ref": "#/definitions/buildVersionInterval"
                     }
                 }
             },
@@ -100,7 +97,7 @@
                 "supportedProductVersions": {
                     "type": "array",
                     "items": {
-                        "$ref": "#/definitions/buildVersionRange"
+                        "$ref": "#/definitions/buildVersionInterval"
                     }
                 },
                 "apiVersion": {
@@ -149,7 +146,7 @@
                 "supportedProductVersions": {
                     "type": "array",
                     "items": {
-                        "$ref": "#/definitions/buildVersionRange"
+                        "$ref": "#/definitions/buildVersionInterval"
                     }
                 },
                 "title": {
@@ -198,7 +195,6 @@
             },
             "required": [
                 "code",
-                "host",
                 "platforms"
             ]
         },
@@ -228,7 +224,7 @@
                 "supportedProductVersions": {
                     "type": "array",
                     "items": {
-                        "$ref": "#/definitions/buildVersionRange"
+                        "$ref": "#/definitions/buildVersionInterval"
                     }
                 },
                 "apiVersion": {
