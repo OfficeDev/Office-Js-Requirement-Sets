@@ -1247,12 +1247,12 @@
 					"supportedProductVersions": [
 						{
 							"from": {
-								"build": "15.0.3612.1010" // Office 2013 Preview	
+								"build": "15.0.3612.1010"
 							}
 						},
 						{
 							"from": {
-								"build": "16.0.3629.1006" // Office 2016 Beta
+								"build": "16.0.3629.1006"
 							}
 						}
 					],
@@ -4155,12 +4155,12 @@
 					"supportedProductVersions": [
 						{
 							"from": {
-								"build": "15.0.3612.1010" // Office 2013 Preview	
+								"build": "15.0.3612.1010"
 							}
 						},
 						{
 							"from": {
-								"build": "16.0.3629.1006" // Office 2016 Beta
+								"build": "16.0.3629.1006"
 							}
 						}
 					],
@@ -5055,12 +5055,12 @@
 					"supportedProductVersions": [
 						{
 							"from": {
-								"build": "15.0.3612.1010" // Office 2013 Preview	
+								"build": "15.0.3612.1010"
 							}
 						},
 						{
 							"from": {
-								"build": "16.0.3629.1006" // Office 2016 Beta
+								"build": "16.0.3629.1006"
 							}
 						}
 					],
@@ -5562,7 +5562,7 @@
 						},
 						{
 							"from": {
-								"build": "16.0.3629.1006" // Office 2016 Beta
+								"build": "16.0.3629.1006"
 							}
 						}
 					],
