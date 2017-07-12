@@ -5600,7 +5600,20 @@
 								}
 							],
 							"availability": "GA"
-						}
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.5",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.0.8412.1000",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						}	
 					],
 					"supportedMethods": []
 				},
@@ -5753,7 +5766,12 @@
 							"name": "Mailbox",
 							"apiVersion": "1.4",
 							"availability": "GA"
-						}
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.5",
+							"availability": "GA"
+						}						
 					],
 					"supportedMethods": []
 				}
