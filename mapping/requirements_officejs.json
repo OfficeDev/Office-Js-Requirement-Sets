@@ -65,6 +65,45 @@
 							"availability": "GA"
 						},
 						{
+							"name": "ExcelApi",
+							"apiVersion": "1.4",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "2.2",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.5",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "2.2",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "File",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "2.2",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
 							"name": "BindingEvents",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [
@@ -365,6 +404,19 @@
 							],
 							"availability": "GA"
 						},
+						{
+							"name": "Document.getFileAsync",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "2.2",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},						
 						{
 							"name": "Document.getSelectedDataAsync",
 							"apiVersion": "1.1",
@@ -688,6 +740,58 @@
 							"availability": "GA"
 						},
 						{
+							"name": "ExcelApi",
+							"apiVersion": "1.4",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.36",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.5",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.36",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.6",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.36",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},	
+						{
+							"name": "File",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.36",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
 							"name": "BindingEvents",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [
@@ -936,6 +1040,19 @@
 							],
 							"availability": "GA"
 						},
+						{
+							"name": "Document.getFileAsync",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.36",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},						
 						{
 							"name": "Bindings.releaseByIdAsync",
 							"apiVersion": "1.1",
@@ -1354,6 +1471,19 @@
 							"availability": "Beta"
 						},
 						{
+							"name": "File",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.0.8326.2062",
+										"version": "1706"
+									}
+								}
+							],
+							"availability": "GA"
+						},						
+						{
 							"name": "DialogApi",
 							"supportedProductVersions": [
 								{
@@ -1485,6 +1615,11 @@
 							"apiVersion": "1.1",
 							"availability": "GA"
 						},
+						{
+							"name": "Bindings.getFileAsync",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},						
 						{
 							"name": "Document.addHandlerAsync",
 							"apiVersion": "1.1",
@@ -1644,7 +1779,7 @@
 							"name": "ExcelApi",
 							"apiVersion": "1.7",
 							"availability": "beta"
-						},
+						},					
 						{
 							"name": "BindingEvents",
 							"apiVersion": "1.1",
