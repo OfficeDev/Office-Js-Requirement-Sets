@@ -5790,7 +5790,7 @@
 							"supportedProductVersions": [
 								{
 									"from": {
-										"build": "16.0.8412.1000",
+										"build": "15.01.0990.000",
 										"version": null
 									}
 								}
