@@ -5871,7 +5871,7 @@
 				},
 				{
 					"code": "IOS",
-					"title": " Outlook for iOS",
+					"title": "Outlook for iOS",
 					"supportedAppTypes": [
 						"MailApp"
 					],
@@ -5945,7 +5945,94 @@
 							],
 							"availability": "GA"
 						}
-          ],
+					],
+					"supportedMethods": []
+				},
+				{
+					"code": "And",
+					"title": "Outlook for Android",
+					"supportedAppTypes": [
+						"MailApp"
+					],
+					"supportedExtensionPoints": [
+						{
+							"code": "MessageRead"
+						},
+						{
+							"code": "ComposeCommandSurface"
+						},
+						{
+							"code": "Modules"
+						},
+						{
+							"code": "AppointmentOrganizer"
+						},
+						{
+							"code": "AttendeeCommandSurface"
+						}
+					],
+					"supportedProductVersions": [
+						{
+							"from": {
+								"build": "2.2.8",
+								"version": null
+							}
+						}
+					],
+					"supportedRequirementSets": [
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "2.2.8",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "2.2.8",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.3",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "2.2.8",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.4",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "2.2.8",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						}
+					],
 					"supportedMethods": []
 				},
 				{
