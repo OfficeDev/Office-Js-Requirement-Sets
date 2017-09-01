@@ -5706,29 +5706,356 @@
 					],
 					"supportedExtensionPoints": [
 						{
-							"code": "MessageRead",
-							"firstBuild": null,
-							"firstVersion": null
+							"code": "MessageRead"
 						},
 						{
-							"code": "ComposeCommandSurface",
-							"firstBuild": null,
-							"firstVersion": null
+							"code": "ComposeCommandSurface"
 						},
 						{
-							"code": "Modules",
-							"firstBuild": null,
-							"firstVersion": null
+							"code": "Modules"
 						},
 						{
-							"code": "AppointmentOrganizer",
-							"firstBuild": null,
-							"firstVersion": null
+							"code": "AppointmentOrganizer"
 						},
 						{
-							"code": "AttendeeCommandSurface",
-							"firstBuild": null,
-							"firstVersion": null
+							"code": "AttendeeCommandSurface"
+						}
+					],
+					"supportedRequirementSets": [
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.0.847.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.1.135.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.3",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.1.225.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.4",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.1.448.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.5",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.0.8412.1000",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						}	
+					],
+					"supportedMethods": []
+				},
+				{
+					"code": "Mac",
+					"title": " Outlook for Mac",
+					"supportedAppTypes": [
+						"MailApp"
+					],
+					"supportedExtensionPoints": [
+						{
+							"code": "MessageRead"
+						},
+						{
+							"code": "ComposeCommandSurface"
+						},
+						{
+							"code": "Modules"
+						},
+						{
+							"code": "AppointmentOrganizer"
+						},
+						{
+							"code": "AttendeeCommandSurface"
+						}
+					],
+					"supportedRequirementSets": [
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.0.847.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.1.135.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.3",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.1.225.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.4",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.1.448.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						}
+					],
+					"supportedMethods": []
+				},
+				{
+					"code": "IOS",
+					"title": "Outlook for iOS",
+					"supportedAppTypes": [
+						"MailApp"
+					],
+					"supportedExtensionPoints": [
+						{
+							"code": "MessageRead"
+						},
+						{
+							"code": "ComposeCommandSurface"
+						},
+						{
+							"code": "Modules"
+						},
+						{
+							"code": "AppointmentOrganizer"
+						},
+						{
+							"code": "AttendeeCommandSurface"
+						}
+					],
+					"supportedRequirementSets": [
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.0.847.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.1.135.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.3",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.1.225.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.4",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.1.448.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						}
+					],
+					"supportedMethods": []
+				},
+				{
+					"code": "And",
+					"title": "Outlook for Android",
+					"supportedAppTypes": [
+						"MailApp"
+					],
+					"supportedExtensionPoints": [
+						{
+							"code": "MessageRead"
+						},
+						{
+							"code": "ComposeCommandSurface"
+						},
+						{
+							"code": "Modules"
+						},
+						{
+							"code": "AppointmentOrganizer"
+						},
+						{
+							"code": "AttendeeCommandSurface"
+						}
+					],
+					"supportedProductVersions": [
+						{
+							"from": {
+								"build": "2.2.8",
+								"version": null
+							}
+						}
+					],
+					"supportedRequirementSets": [
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "2.2.8",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "2.2.8",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.3",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "2.2.8",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.4",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "2.2.8",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						}
+					],
+					"supportedMethods": []
+				},
+				{
+					"code": "WAC",
+					"title": " Outlook for Online",
+					"supportedAppTypes": [
+						"MailApp"
+					],
+					"supportedExtensionPoints": [
+						{
+							"code": "MessageRead"
+						},
+						{
+							"code": "ComposeCommandSurface"
+						},
+						{
+							"code": "Modules"
+						},
+						{
+							"code": "AppointmentOrganizer"
+						},
+						{
+							"code": "AttendeeCommandSurface"
 						}
 					],
 					"supportedRequirementSets": [
@@ -5796,183 +6123,7 @@
 								}
 							],
 							"availability": "GA"
-						}	
-					],
-					"supportedMethods": []
-				},
-				{
-					"code": "Mac",
-					"title": " Outlook for Mac",
-					"supportedAppTypes": [
-						"MailApp"
-					],
-					"supportedExtensionPoints": [
-						{
-							"code": "MessageRead",
-							"firstBuild": null,
-							"firstVersion": null
-						},
-						{
-							"code": "ComposeCommandSurface",
-							"firstBuild": null,
-							"firstVersion": null
-						},
-						{
-							"code": "Modules",
-							"firstBuild": null,
-							"firstVersion": null
-						},
-						{
-							"code": "AppointmentOrganizer",
-							"firstBuild": null,
-							"firstVersion": null
-						},
-						{
-							"code": "AttendeeCommandSurface",
-							"firstBuild": null,
-							"firstVersion": null
 						}
-					],
-					"supportedRequirementSets": [
-						{
-							"name": "Mailbox",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Mailbox",
-							"apiVersion": "1.2",
-							"availability": "GA"
-						},
-						{
-							"name": "Mailbox",
-							"apiVersion": "1.3",
-							"availability": "GA"
-						},
-						{
-							"name": "Mailbox",
-							"apiVersion": "1.4",
-							"availability": "GA"
-						}
-					],
-					"supportedMethods": []
-				},
-				{
-					"code": "IOS",
-					"title": " Outlook for iOS",
-					"supportedAppTypes": [
-						"MailApp"
-					],
-					"supportedExtensionPoints": [
-						{
-							"code": "MessageRead",
-							"firstBuild": null,
-							"firstVersion": null
-						},
-						{
-							"code": "ComposeCommandSurface",
-							"firstBuild": null,
-							"firstVersion": null
-						},
-						{
-							"code": "Modules",
-							"firstBuild": null,
-							"firstVersion": null
-						},
-						{
-							"code": "AppointmentOrganizer",
-							"firstBuild": null,
-							"firstVersion": null
-						},
-						{
-							"code": "AttendeeCommandSurface",
-							"firstBuild": null,
-							"firstVersion": null
-						}
-					],
-					"supportedRequirementSets": [
-						{
-							"name": "Mailbox",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Mailbox",
-							"apiVersion": "1.2",
-							"availability": "GA"
-						},
-						{
-							"name": "Mailbox",
-							"apiVersion": "1.3",
-							"availability": "GA"
-						},
-						{
-							"name": "Mailbox",
-							"apiVersion": "1.4",
-							"availability": "GA"
-						}
-					],
-					"supportedMethods": []
-				},
-				{
-					"code": "WAC",
-					"title": " Outlook for Online",
-					"supportedAppTypes": [
-						"MailApp"
-					],
-					"supportedExtensionPoints": [
-						{
-							"code": "MessageRead",
-							"firstBuild": null,
-							"firstVersion": null
-						},
-						{
-							"code": "ComposeCommandSurface",
-							"firstBuild": null,
-							"firstVersion": null
-						},
-						{
-							"code": "Modules",
-							"firstBuild": null,
-							"firstVersion": null
-						},
-						{
-							"code": "AppointmentOrganizer",
-							"firstBuild": null,
-							"firstVersion": null
-						},
-						{
-							"code": "AttendeeCommandSurface",
-							"firstBuild": null,
-							"firstVersion": null
-						}
-					],
-					"supportedRequirementSets": [
-						{
-							"name": "Mailbox",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Mailbox",
-							"apiVersion": "1.2",
-							"availability": "GA"
-						},
-						{
-							"name": "Mailbox",
-							"apiVersion": "1.3",
-							"availability": "GA"
-						},
-						{
-							"name": "Mailbox",
-							"apiVersion": "1.4",
-							"availability": "GA"
-						},
-						{
-							"name": "Mailbox",
-							"apiVersion": "1.5",
-							"availability": "GA"
-						}						
 					],
 					"supportedMethods": []
 				}
