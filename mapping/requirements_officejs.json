@@ -4044,7 +4044,12 @@
 							"name": "WordApiNewDoc",
 							"apiVersion": "1.2",
 							"availability": "GA"
-						}
+						},
+						{
+							"name": "AddinCommands",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						}						
 					],
 					"supportedMethods": [
 						{
