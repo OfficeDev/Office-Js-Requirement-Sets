@@ -431,7 +431,7 @@
 							"availability": "GA"
 						},			
 						{
-							"name": "Document.getSliceAsync",
+							"name": "File.getSliceAsync",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [
 								{
@@ -1093,7 +1093,7 @@
 							"availability": "GA"
 						},
 						{
-							"name": "Document.getSliceAsync",
+							"name": "File.getSliceAsync",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [
 								{
@@ -1673,12 +1673,12 @@
 							"availability": "GA"
 						},
 						{
-							"name": "Bindings.getFileAsync",
+							"name": "Document.getFileAsync",
 							"apiVersion": "1.1",
 							"availability": "GA"
 						},		
 						{
-							"name": "Bindings.getSliceAsync",
+							"name": "File.getSliceAsync",
 							"apiVersion": "1.1",
 							"availability": "GA"
 						},											
