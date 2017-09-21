@@ -1,680 +1,594 @@
 {
-	"products": [
-		{
+	"products": [{
 			"code": "Excel",
 			"host": "Workbook",
-			"platforms": [
-				{
+			"platforms": [{
 					"code": "IOS",
 					"title": "Excel for iOS",
-					"supportedProductVersions": [
-						{
-							"from": {
-								"build": "1.14",
-								"version": null
-							}
+					"supportedProductVersions": [{
+						"from": {
+							"build": "1.14",
+							"version": null
 						}
-					],
+					}],
 					"supportedAppTypes": [
 						"ContentApp",
 						"TaskPaneApp"
 					],
-					"supportedExtensionPoints": [
-						{
-							"code": "addin_command"
-						}
-					],
-					"supportedRequirementSets": [
-						{
+					"supportedExtensionPoints": [{
+						"code": "addin_command"
+					}],
+					"supportedRequirementSets": [{
 							"name": "ExcelApi",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.2",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.21",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.21",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.3",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.27",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.27",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.4",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "2.2",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "2.2",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.5",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "2.2",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "2.2",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "File",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "2.2",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "2.2",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "BindingEvents",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.22",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.22",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "DocumentEvents",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "MatrixBindings",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "MatrixCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Selection",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Settings",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBindings",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TextBindings",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TextCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ImageCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "AddinCommands",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "2.22",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "2.22",
+									"version": null
 								}
-							],
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "CompressedFile",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "2.22",
+									"version": null
+								}
+							}],
 							"availability": "GA"
 						}
 					],
-					"supportedMethods": [
-						{
+					"supportedMethods": [{
 							"name": "Binding.addHandlerAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Binding.removeHandlerAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Bindings.addFromNamedItemAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Bindings.addFromPromptAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Bindings.addFromSelectionAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Bindings.getAllAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Bindings.getByIdAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Bindings.releaseByIdAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.addHandlerAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.getFilePropertiesAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.getFileAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "2.2",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "2.2",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
-						},						
+						},
+						{
+							"name": "Document.getSliceAsync",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "2.2",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
 						{
 							"name": "Document.getSelectedDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.goToByIdAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.removeHandlerAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.setSelectedDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "MatrixBinding.getDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "MatrixBinding.setDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Settings.get",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Settings.remove",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Settings.saveAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Settings.set",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.addColumnsAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.addRowsAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.clearFormatsAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.deleteAllDataValuesAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.getDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.setDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.setFormatsAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.setTableOptionsAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TextBinding.getDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TextBinding.setDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						}
 					]
@@ -682,674 +596,590 @@
 				{
 					"code": "Mac",
 					"title": "Excel for Mac",
-					"supportedProductVersions": [
-						{
-							"from": {
-								"build": "15.13",
-								"version": null
-							}
+					"supportedProductVersions": [{
+						"from": {
+							"build": "15.13",
+							"version": null
 						}
-					],
+					}],
 					"supportedAppTypes": [
 						"ContentApp",
 						"TaskPaneApp"
 					],
-					"supportedExtensionPoints": [
-						{
-							"code": "addin_command"
-						}
-					],
-					"supportedRequirementSets": [
-						{
+					"supportedExtensionPoints": [{
+						"code": "addin_command"
+					}],
+					"supportedRequirementSets": [{
 							"name": "ExcelApi",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.20",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.20",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.2",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.22",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.22",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.3",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.27",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.27",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.4",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.36",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.36",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.5",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.36",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.36",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.6",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.36",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.36",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
-						},	
+						},
 						{
 							"name": "File",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.36",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.36",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "BindingEvents",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.20",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.20",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "DocumentEvents",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "MatrixBindings",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "MatrixCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Selection",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBindings",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TextBindings",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TextCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ImageCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "AddinCommands",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.32",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.32",
+									"version": null
 								}
-							],
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "CompressedFile",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "2.22",
+									"version": null
+								}
+							}],
 							"availability": "GA"
 						}
 					],
-					"supportedMethods": [
-						{
+					"supportedMethods": [{
 							"name": "Binding.addHandlerAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Binding.removeHandlerAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Bindings.addFromNamedItemAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Bindings.addFromPromptAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Bindings.addFromSelectionAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Bindings.getAllAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Bindings.getByIdAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.getFileAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.36",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.36",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
-						},						
+						},
+						{
+							"name": "Document.getSliceAsync",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.36",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
 						{
 							"name": "Bindings.releaseByIdAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.addHandlerAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.getFilePropertiesAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.getSelectedDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.goToByIdAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.removeHandlerAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.setSelectedDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "MatrixBinding.getDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "MatrixBinding.setDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Settings.get",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Settings.remove",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Settings.saveAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Settings.set",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.addColumnsAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.addRowsAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.clearFormatsAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.deleteAllDataValuesAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.getDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.setDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.setFormatsAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.setTableOptionsAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TextBinding.getDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TextBinding.setDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						}
 					]
@@ -1361,8 +1191,7 @@
 						"ContentApp",
 						"TaskPaneApp"
 					],
-					"supportedProductVersions": [
-						{
+					"supportedProductVersions": [{
 							"from": {
 								"build": "15.0.3612.1010"
 							}
@@ -1373,120 +1202,100 @@
 							}
 						}
 					],
-					"supportedExtensionPoints": [
-						{
-							"code": "addin_command"
-						}
-					],
-					"supportedRequirementSets": [
-						{
+					"supportedExtensionPoints": [{
+						"code": "addin_command"
+					}],
+					"supportedRequirementSets": [{
 							"name": "ExcelApi",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.4266.1001",
-										"version": "1509"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.4266.1001",
+									"version": "1509"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.2",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.6741.2088",
-										"version": "1601"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.6741.2088",
+									"version": "1601"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.3",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.7369.2055",
-										"version": "1608"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.7369.2055",
+									"version": "1608"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.4",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.7870.2024",
-										"version": "1701"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.7870.2024",
+									"version": "1701"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.5",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.8067.2070",
-										"version": "1703"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.8067.2070",
+									"version": "1703"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.6",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.8201.2001",
-										"version": "1704"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.8201.2001",
+									"version": "1704"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.7",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.8201.2001",
-										"version": "1704"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.8201.2001",
+									"version": "1704"
 								}
-							],
+							}],
 							"availability": "Beta"
 						},
 						{
 							"name": "File",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.8326.2062",
-										"version": "1706"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.8326.2062",
+									"version": "1706"
 								}
-							],
+							}],
 							"availability": "GA"
-						},						
+						},
 						{
 							"name": "DialogApi",
-							"supportedProductVersions": [
-								{
+							"supportedProductVersions": [{
 									"from": {
 										"build": "15.0.4855.1000",
 										"version": null
@@ -1561,21 +1370,23 @@
 							"availability": "GA"
 						},
 						{
+							"name": "CompressedFile",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.8431.2079",
+									"version": "1701"
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "ImageCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
-								}
-							],
 							"availability": "GA"
 						}
 					],
-					"supportedMethods": [
-						{
+					"supportedMethods": [{
 							"name": "Binding.addHandlerAsync",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -1619,7 +1430,12 @@
 							"name": "Bindings.getFileAsync",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						},						
+						},
+						{
+							"name": "Bindings.getSliceAsync",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
 						{
 							"name": "Document.addHandlerAsync",
 							"apiVersion": "1.1",
@@ -1739,13 +1555,10 @@
 						"ContentApp",
 						"TaskPaneApp"
 					],
-					"supportedExtensionPoints": [
-						{
-							"code": "addin_command"
-						}
-					],
-					"supportedRequirementSets": [
-						{
+					"supportedExtensionPoints": [{
+						"code": "addin_command"
+					}],
+					"supportedRequirementSets": [{
 							"name": "ExcelApi",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -1779,7 +1592,7 @@
 							"name": "ExcelApi",
 							"apiVersion": "1.7",
 							"availability": "beta"
-						},					
+						},
 						{
 							"name": "BindingEvents",
 							"apiVersion": "1.1",
@@ -1792,6 +1605,11 @@
 						},
 						{
 							"name": "DocumentEvents",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "AddinCommands",
 							"apiVersion": "1.1",
 							"availability": "GA"
 						},
@@ -1856,8 +1674,7 @@
 							"availability": "GA"
 						}
 					],
-					"supportedMethods": [
-						{
+					"supportedMethods": [{
 							"name": "Binding.addHandlerAsync",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -2044,937 +1861,790 @@
 		{
 			"code": "Word",
 			"host": "Document",
-			"platforms": [
-				{
+			"platforms": [{
 					"code": "IOS",
 					"title": "Word for iOS",
-					"supportedProductVersions": [
-						{
-							"from": {
-								"build": "1.18",
-								"version": null
-							}
+					"supportedProductVersions": [{
+						"from": {
+							"build": "1.18",
+							"version": null
 						}
-					],
+					}],
 					"supportedAppTypes": [
 						"TaskPaneApp"
 					],
-					"supportedExtensionPoints": [
-						{
-							"code": "addin_command"
-						}
-					],
-					"supportedRequirementSets": [
-						{
+					"supportedExtensionPoints": [{
+						"code": "addin_command"
+					}],
+					"supportedRequirementSets": [{
 							"name": "WordApi",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "WordApi",
 							"apiVersion": "1.2",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "WordApi",
 							"apiVersion": "1.3",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "2.22",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "2.22",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.22",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.22",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "BindingEvents",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CompressedFile",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlParts",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "DocumentEvents",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "File",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "HtmlCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ImageCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "MatrixBindings",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "MatrixCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "OoxmlCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "PdfFile",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Selection",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Settings",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBindings",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TextBindings",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TextCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TextFile",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "AddinCommands",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "2.22",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "2.22",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						}
 					],
-					"supportedMethods": [
-						{
+					"supportedMethods": [{
 							"name": "Binding.addHandlerAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Binding.removeHandlerAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Bindings.addFromNamedItemAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Bindings.addFromSelectionAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Bindings.getAllAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Bindings.getByIdAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Bindings.releaseByIdAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlNode.getNodesAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlNode.getNodeValueAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlNode.getTextAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlNode.getXmlAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlNode.setNodeValueAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlNode.setTextAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlNode.setXmlAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlPart.addHandlerAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlPart.deleteAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlPart.getNodesAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlPart.getXmlAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlPart.removeHandlerAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlParts.addAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlParts.getByIdAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlParts.getByNamespaceAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlPrefixMappings.addNamespaceAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlPrefixMappings.getNamespaceAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlPrefixMappings.getPrefixAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.addHandlerAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.getFileAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.getFilePropertiesAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.getSelectedDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.goToByIdAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.removeHandlerAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.setSelectedDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "File.closeAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "File.getSliceAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "MatrixBinding.getDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "MatrixBinding.setDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Settings.get",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Settings.remove",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Settings.saveAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Settings.set",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.addColumnsAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.addRowsAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.deleteAllDataValuesAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.getDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.setDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TextBinding.getDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TextBinding.setDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.18",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.18",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						}
 					]
@@ -2982,933 +2652,787 @@
 				{
 					"code": "Mac",
 					"title": "Word for Mac",
-					"supportedProductVersions": [
-						{
-							"from": {
-								"build": "15.19",
-								"version": null
-							}
+					"supportedProductVersions": [{
+						"from": {
+							"build": "15.19",
+							"version": null
 						}
-					],
+					}],
 					"supportedAppTypes": [
 						"TaskPaneApp"
 					],
-					"supportedExtensionPoints": [
-						{
-							"code": "addin_command"
-						}
-					],
-					"supportedRequirementSets": [
-						{
+					"supportedExtensionPoints": [{
+						"code": "addin_command"
+					}],
+					"supportedRequirementSets": [{
 							"name": "WordApi",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "WordApi",
 							"apiVersion": "1.2",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "WordApi",
 							"apiVersion": "1.3",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.32",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.32",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.20",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.20",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "BindingEvents",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CompressedFile",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlParts",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "DocumentEvents",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "File",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "HtmlCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ImageCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "MatrixBindings",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "MatrixCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "OoxmlCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "PdfFile",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Selection",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Settings",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBindings",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TextBindings",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TextCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TextFile",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "AddinCommands",
 							"apiVersion": ".1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.32",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.32",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						}
 					],
-					"supportedMethods": [
-						{
+					"supportedMethods": [{
 							"name": "Binding.addHandlerAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Binding.removeHandlerAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Bindings.addFromNamedItemAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Bindings.addFromSelectionAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Bindings.getAllAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Bindings.getByIdAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Bindings.releaseByIdAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlNode.getNodesAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlNode.getNodeValueAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlNode.getTextAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlNode.getXmlAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlNode.setNodeValueAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlNode.setTextAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlNode.setXmlAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlPart.addHandlerAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlPart.deleteAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlPart.getNodesAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlPart.getXmlAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlPart.removeHandlerAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlParts.addAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlParts.getByIdAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlParts.getByNamespaceAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlPrefixMappings.addNamespaceAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlPrefixMappings.getNamespaceAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomXmlPrefixMappings.getPrefixAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.addHandlerAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.getFileAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.getFilePropertiesAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.getSelectedDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.goToByIdAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.removeHandlerAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Document.setSelectedDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "File.closeAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "File.getSliceAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "MatrixBinding.getDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "MatrixBinding.setDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Settings.get",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Settings.remove",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Settings.saveAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Settings.set",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.addColumnsAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.addRowsAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.deleteAllDataValuesAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.getDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBinding.setDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TextBinding.getDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TextBinding.setDataAsync",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.19",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.19",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						}
 					]
@@ -3919,13 +3443,10 @@
 					"supportedAppTypes": [
 						"TaskPaneApp"
 					],
-					"supportedExtensionPoints": [
-						{
-							"code": "addin_command"
-						}
-					],
-					"supportedRequirementSets": [
-						{
+					"supportedExtensionPoints": [{
+						"code": "addin_command"
+					}],
+					"supportedRequirementSets": [{
 							"name": "WordApi",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -4049,10 +3570,9 @@
 							"name": "AddinCommands",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						}						
+						}
 					],
-					"supportedMethods": [
-						{
+					"supportedMethods": [{
 							"name": "Binding.addHandlerAsync",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -4292,8 +3812,7 @@
 				{
 					"code": "Win32",
 					"title": "Word for Windows",
-					"supportedProductVersions": [
-						{
+					"supportedProductVersions": [{
 							"from": {
 								"build": "15.0.3612.1010"
 							}
@@ -4307,56 +3826,46 @@
 					"supportedAppTypes": [
 						"TaskPaneApp"
 					],
-					"supportedExtensionPoints": [
-						{
-							"code": "addin_command"
-						}
-					],
-					"supportedRequirementSets": [
-						{
+					"supportedExtensionPoints": [{
+						"code": "addin_command"
+					}],
+					"supportedRequirementSets": [{
 							"name": "WordApi",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.4266.1001",
-										"version": "1509"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.4266.1001",
+									"version": "1509"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "WordApi",
 							"apiVersion": "1.2",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.6568.1000",
-										"version": "1601"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.6568.1000",
+									"version": "1601"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "WordApi",
 							"apiVersion": "1.3",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.7668.1000",
-										"version": "1612"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.7668.1000",
+									"version": "1612"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
+							"supportedProductVersions": [{
 									"from": {
 										"build": "15.0.4855.1000",
 										"version": null
@@ -4471,8 +3980,7 @@
 							"availability": "GA"
 						}
 					],
-					"supportedMethods": [
-						{
+					"supportedMethods": [{
 							"name": "Binding.addHandlerAsync",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -4714,21 +4222,17 @@
 		{
 			"code": "PowerPoint",
 			"host": "Presentation",
-			"platforms": [
-				{
+			"platforms": [{
 					"code": "IOS",
 					"title": "PowerPoint for iOS",
 					"supportedAppTypes": [
 						"ContentApp",
 						"TaskPaneApp"
 					],
-					"supportedExtensionPoints": [
-						{
-							"code": "addin_command"
-						}
-					],
-					"supportedRequirementSets": [
-						{
+					"supportedExtensionPoints": [{
+						"code": "addin_command"
+					}],
+					"supportedRequirementSets": [{
 							"name": "ActiveView",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -4782,8 +4286,7 @@
 							"name": "DialogApi",
 							"apiVersion": "1.1",
 							"availability": "GA",
-							"supportedProductVersions": [
-								{
+							"supportedProductVersions": [{
 									"from": {
 										"build": "15.0.4855.1000",
 										"version": null
@@ -4802,8 +4305,7 @@
 							]
 						}
 					],
-					"supportedMethods": [
-						{
+					"supportedMethods": [{
 							"name": "Document.addHandlerAsync",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -4882,13 +4384,10 @@
 						"ContentApp",
 						"TaskPaneApp"
 					],
-					"supportedExtensionPoints": [
-						{
-							"code": "addin_command"
-						}
-					],
-					"supportedRequirementSets": [
-						{
+					"supportedExtensionPoints": [{
+						"code": "addin_command"
+					}],
+					"supportedRequirementSets": [{
 							"name": "ActiveView",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -4937,13 +4436,12 @@
 							"name": "AddinCommands",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						},						
+						},
 						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
 							"availability": "GA",
-							"supportedProductVersions": [
-								{
+							"supportedProductVersions": [{
 									"from": {
 										"build": "15.0.4855.1000",
 										"version": null
@@ -4962,8 +4460,7 @@
 							]
 						}
 					],
-					"supportedMethods": [
-						{
+					"supportedMethods": [{
 							"name": "Document.addHandlerAsync",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -5042,13 +4539,10 @@
 						"ContentApp",
 						"TaskPaneApp"
 					],
-					"supportedExtensionPoints": [
-						{
-							"code": "addin_command"
-						}
-					],
-					"supportedRequirementSets": [
-						{
+					"supportedExtensionPoints": [{
+						"code": "addin_command"
+					}],
+					"supportedRequirementSets": [{
 							"name": "ActiveView",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -5092,8 +4586,7 @@
 							"name": "DialogApi",
 							"apiVersion": "1.1",
 							"availability": "GA",
-							"supportedProductVersions": [
-								{
+							"supportedProductVersions": [{
 									"from": {
 										"build": "15.0.4855.1000",
 										"version": null
@@ -5112,8 +4605,7 @@
 							]
 						}
 					],
-					"supportedMethods": [
-						{
+					"supportedMethods": [{
 							"name": "Document.addHandlerAsync",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -5192,13 +4684,10 @@
 						"ContentApp",
 						"TaskPaneApp"
 					],
-					"supportedExtensionPoints": [
-						{
-							"code": "addin_command"
-						}
-					],
-					"supportedProductVersions": [
-						{
+					"supportedExtensionPoints": [{
+						"code": "addin_command"
+					}],
+					"supportedProductVersions": [{
 							"from": {
 								"build": "15.0.3612.1010"
 							}
@@ -5209,8 +4698,7 @@
 							}
 						}
 					],
-					"supportedRequirementSets": [
-						{
+					"supportedRequirementSets": [{
 							"name": "ActiveView",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -5264,8 +4752,7 @@
 							"name": "DialogApi",
 							"apiVersion": "1.1",
 							"availability": "GA",
-							"supportedProductVersions": [
-								{
+							"supportedProductVersions": [{
 									"from": {
 										"build": "15.0.4855.1000",
 										"version": null
@@ -5284,8 +4771,7 @@
 							]
 						}
 					],
-					"supportedMethods": [
-						{
+					"supportedMethods": [{
 							"name": "Document.addHandlerAsync",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -5362,345 +4848,330 @@
 		{
 			"code": "OneNote",
 			"host": "Notebook",
-			"platforms": [
-				{
-					"code": "WAC",
-					"title": "OneNote for Online",
-					"supportedAppTypes": [
-						"ContentApp",
-						"TaskPaneApp"
-					],
-					"supportedExtensionPoints": [
-						{
-							"code": "addin_command"
-						}
-					],
-					"supportedRequirementSets": [
-						{
-							"name": "OneNoteApi",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "DocumentEvents",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Settings",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "TextCoercion",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "HtmlCoercion",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "ImageCoercion",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "DialogApi",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						}
-					],
-					"supportedMethods": []
-				}
-			]
+			"platforms": [{
+				"code": "WAC",
+				"title": "OneNote for Online",
+				"supportedAppTypes": [
+					"ContentApp",
+					"TaskPaneApp"
+				],
+				"supportedExtensionPoints": [{
+					"code": "addin_command"
+				}],
+				"supportedRequirementSets": [{
+						"name": "OneNoteApi",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "DocumentEvents",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Settings",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "TextCoercion",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "HtmlCoercion",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "ImageCoercion",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "DialogApi",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					}
+				],
+				"supportedMethods": []
+			}]
 		},
 		{
 			"code": "Access",
 			"host": "Database",
-			"platforms": [
-				{
-					"code": "WAC",
-					"title": "Access for Online",
-					"supportedAppTypes": [
-						"ContentApp"
-					],
-					"supportedExtensionPoints": [],
-					"supportedRequirementSets": [
-						{
-							"name": "BindingEvents",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "PartialTableBindings",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Settings",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "TableBindings",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "TableCoercion",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "DialogApi",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						}
-					],
-					"supportedMethods": [
-						{
-							"name": "Bindings.addHandlerAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Bindings.addFromNamedItemAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Bindings.addFromPromptAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Bindings.addFromSelectionAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Bindings.getAllAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Bindings.getByIdAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Binding.removeHandlerAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Bindings.releaseByIdAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Settings.addHandlerAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Settings.get",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Settings.refreshAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Settings.remove",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Settings.set",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Settings.removeHandlerAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Settings.saveAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "TableBinding.addColumnsAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "TableBinding.addRowsAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "TableBinding.deleteAllDataValuesAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "TableBinding.getDataAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "TableBinding.setDataAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						}
-					]
-				}
-			]
+			"platforms": [{
+				"code": "WAC",
+				"title": "Access for Online",
+				"supportedAppTypes": [
+					"ContentApp"
+				],
+				"supportedExtensionPoints": [],
+				"supportedRequirementSets": [{
+						"name": "BindingEvents",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "PartialTableBindings",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Settings",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "TableBindings",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "TableCoercion",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "DialogApi",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					}
+				],
+				"supportedMethods": [{
+						"name": "Bindings.addHandlerAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Bindings.addFromNamedItemAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Bindings.addFromPromptAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Bindings.addFromSelectionAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Bindings.getAllAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Bindings.getByIdAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Binding.removeHandlerAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Bindings.releaseByIdAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Settings.addHandlerAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Settings.get",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Settings.refreshAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Settings.remove",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Settings.set",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Settings.removeHandlerAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Settings.saveAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "TableBinding.addColumnsAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "TableBinding.addRowsAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "TableBinding.deleteAllDataValuesAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "TableBinding.getDataAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "TableBinding.setDataAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					}
+				]
+			}]
 		},
 		{
 			"code": "Project",
 			"host": "Project",
-			"platforms": [
-				{
-					"code": "Win32",
-					"title": "Project for Windows",
-					"supportedAppTypes": [
-						"TaskPaneApp"
-					],
-					"supportedExtensionPoints": [],
-					"supportedRequirementSets": [
-						{
-							"name": "Selection",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "TextCoercion",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "DialogApi",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						}
-					],
-					"supportedMethods": [
-						{
-							"name": "Document.addHandlerAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Document.getProjectFieldAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Document.getResourceFieldAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Document.getSelectedDataAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Document.getSelectedResourceAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Document.getSelectedTaskAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Document.getSelectedViewAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Document.getTaskAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Document.getTaskFieldAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Document.getWSSUrlAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Document.removeHandlerAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Document.setSelectedDataAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Document.getTaskByIndexAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Document.getResourceByIndexAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Document.setTaskFieldAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Document.setResourceFieldAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Document.getMaxTaskIndexAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Document.getMaxResourceIndexAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "Document.createTaskAsync",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						}
-					]
-				}
-			]
+			"platforms": [{
+				"code": "Win32",
+				"title": "Project for Windows",
+				"supportedAppTypes": [
+					"TaskPaneApp"
+				],
+				"supportedExtensionPoints": [],
+				"supportedRequirementSets": [{
+						"name": "Selection",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "TextCoercion",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "DialogApi",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					}
+				],
+				"supportedMethods": [{
+						"name": "Document.addHandlerAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Document.getProjectFieldAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Document.getResourceFieldAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Document.getSelectedDataAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Document.getSelectedResourceAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Document.getSelectedTaskAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Document.getSelectedViewAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Document.getTaskAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Document.getTaskFieldAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Document.getWSSUrlAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Document.removeHandlerAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Document.setSelectedDataAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Document.getTaskByIndexAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Document.getResourceByIndexAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Document.setTaskFieldAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Document.setResourceFieldAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Document.getMaxTaskIndexAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Document.getMaxResourceIndexAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "Document.createTaskAsync",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					}
+				]
+			}]
 		},
 		{
 			"code": "Outlook",
 			"host": "Mailbox",
-			"platforms": [
-				{
+			"platforms": [{
 					"code": "Win32",
 					"title": "Outlook for Windows",
-					"supportedProductVersions": [
-						{
+					"supportedProductVersions": [{
 							"from": {
 								"build": "15.0.847.0"
 							}
@@ -5714,8 +5185,7 @@
 					"supportedAppTypes": [
 						"MailApp"
 					],
-					"supportedExtensionPoints": [
-						{
+					"supportedExtensionPoints": [{
 							"code": "MessageRead"
 						},
 						{
@@ -5731,72 +5201,61 @@
 							"code": "AttendeeCommandSurface"
 						}
 					],
-					"supportedRequirementSets": [
-						{
+					"supportedRequirementSets": [{
 							"name": "Mailbox",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.0.847.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.0.847.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Mailbox",
 							"apiVersion": "1.2",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.1.135.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.1.135.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Mailbox",
 							"apiVersion": "1.3",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.1.225.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.1.225.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Mailbox",
 							"apiVersion": "1.4",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.1.448.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.1.448.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Mailbox",
 							"apiVersion": "1.5",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.8412.1000",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.8412.1000",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
-						}	
+						}
 					],
 					"supportedMethods": []
 				},
@@ -5806,8 +5265,7 @@
 					"supportedAppTypes": [
 						"MailApp"
 					],
-					"supportedExtensionPoints": [
-						{
+					"supportedExtensionPoints": [{
 							"code": "MessageRead"
 						},
 						{
@@ -5823,57 +5281,48 @@
 							"code": "AttendeeCommandSurface"
 						}
 					],
-					"supportedRequirementSets": [
-						{
+					"supportedRequirementSets": [{
 							"name": "Mailbox",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.0.847.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.0.847.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Mailbox",
 							"apiVersion": "1.2",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.1.135.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.1.135.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Mailbox",
 							"apiVersion": "1.3",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.1.225.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.1.225.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Mailbox",
 							"apiVersion": "1.4",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.1.448.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.1.448.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						}
 					],
@@ -5885,8 +5334,7 @@
 					"supportedAppTypes": [
 						"MailApp"
 					],
-					"supportedExtensionPoints": [
-						{
+					"supportedExtensionPoints": [{
 							"code": "MessageRead"
 						},
 						{
@@ -5902,57 +5350,48 @@
 							"code": "AttendeeCommandSurface"
 						}
 					],
-					"supportedRequirementSets": [
-						{
+					"supportedRequirementSets": [{
 							"name": "Mailbox",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.0.847.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.0.847.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Mailbox",
 							"apiVersion": "1.2",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.1.135.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.1.135.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Mailbox",
 							"apiVersion": "1.3",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.1.225.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.1.225.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Mailbox",
 							"apiVersion": "1.4",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.1.448.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.1.448.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						}
 					],
@@ -5964,8 +5403,7 @@
 					"supportedAppTypes": [
 						"MailApp"
 					],
-					"supportedExtensionPoints": [
-						{
+					"supportedExtensionPoints": [{
 							"code": "MessageRead"
 						},
 						{
@@ -5981,65 +5419,54 @@
 							"code": "AttendeeCommandSurface"
 						}
 					],
-					"supportedProductVersions": [
-						{
-							"from": {
-								"build": "2.2.8",
-								"version": null
-							}
+					"supportedProductVersions": [{
+						"from": {
+							"build": "2.2.8",
+							"version": null
 						}
-					],
-					"supportedRequirementSets": [
-						{
+					}],
+					"supportedRequirementSets": [{
 							"name": "Mailbox",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "2.2.8",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "2.2.8",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Mailbox",
 							"apiVersion": "1.2",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "2.2.8",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "2.2.8",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Mailbox",
 							"apiVersion": "1.3",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "2.2.8",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "2.2.8",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Mailbox",
 							"apiVersion": "1.4",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "2.2.8",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "2.2.8",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						}
 					],
@@ -6051,8 +5478,7 @@
 					"supportedAppTypes": [
 						"MailApp"
 					],
-					"supportedExtensionPoints": [
-						{
+					"supportedExtensionPoints": [{
 							"code": "MessageRead"
 						},
 						{
@@ -6068,70 +5494,59 @@
 							"code": "AttendeeCommandSurface"
 						}
 					],
-					"supportedRequirementSets": [
-						{
+					"supportedRequirementSets": [{
 							"name": "Mailbox",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.0.847.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.0.847.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Mailbox",
 							"apiVersion": "1.2",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.1.135.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.1.135.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Mailbox",
 							"apiVersion": "1.3",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.1.225.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.1.225.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Mailbox",
 							"apiVersion": "1.4",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.1.448.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.1.448.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Mailbox",
 							"apiVersion": "1.5",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.01.0990.000",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.01.0990.000",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						}
 					],
@@ -6141,50 +5556,43 @@
 		},
 		{
 			"code": "Teams",
-			"platforms": [
-				{
-					"code": "Any",
-					"title": "Teams",
-					"supportedAppTypes": [
-						"ContentApp"
-					],
-					"supportedExtensionPoints": [],
-					"supportedRequirementSets": [
-						{
-							"name": "TeamsAPI",
-							"apiVersion": "1.0",
-							"availability": "GA"
-						}
-					],
-					"supportedMethods": []
-				}
-			]
+			"platforms": [{
+				"code": "Any",
+				"title": "Teams",
+				"supportedAppTypes": [
+					"ContentApp"
+				],
+				"supportedExtensionPoints": [],
+				"supportedRequirementSets": [{
+					"name": "TeamsAPI",
+					"apiVersion": "1.0",
+					"availability": "GA"
+				}],
+				"supportedMethods": []
+			}]
 		},
 		{
 			"code": "PowerBI",
-			"platforms": [
-				{
-					"code": "Any",
-					"title": "Power BI",
-					"supportedAppTypes": [
-						"ContentApp"
-					],
-					"supportedExtensionPoints": [],
-					"supportedRequirementSets": [
-						{
-							"name": "DataAnalytics.PowerBI",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "BuiltWithR.PowerBI",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						}
-					],
-					"supportedMethods": []
-				}
-			]
+			"platforms": [{
+				"code": "Any",
+				"title": "Power BI",
+				"supportedAppTypes": [
+					"ContentApp"
+				],
+				"supportedExtensionPoints": [],
+				"supportedRequirementSets": [{
+						"name": "DataAnalytics.PowerBI",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					},
+					{
+						"name": "BuiltWithR.PowerBI",
+						"apiVersion": "1.1",
+						"availability": "GA"
+					}
+				],
+				"supportedMethods": []
+			}]
 		}
 	]
 }
