@@ -271,6 +271,19 @@
 								}
 							],
 							"availability": "GA"
+						},
+						{
+							"name": "CompressedFile",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "2.22",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [
@@ -416,7 +429,20 @@
 								}
 							],
 							"availability": "GA"
-						},						
+						},			
+						{
+							"name": "File.getSliceAsync",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "2.2",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},										
 						{
 							"name": "Document.getSelectedDataAsync",
 							"apiVersion": "1.1",
@@ -946,7 +972,20 @@
 								}
 							],
 							"availability": "GA"
-						}
+						},
+						{
+							"name": "CompressedFile",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "2.22",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						}						
 					],
 					"supportedMethods": [
 						{
@@ -1052,7 +1091,20 @@
 								}
 							],
 							"availability": "GA"
-						},						
+						},
+						{
+							"name": "File.getSliceAsync",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.36",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},												
 						{
 							"name": "Bindings.releaseByIdAsync",
 							"apiVersion": "1.1",
@@ -1561,16 +1613,21 @@
 							"availability": "GA"
 						},
 						{
-							"name": "ImageCoercion",
+							"name": "CompressedFile",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [
 								{
 									"from": {
-										"build": "1.14",
-										"version": null
+										"build": "16.0.8431.2079",
+										"version": "1701"
 									}
 								}
 							],
+							"availability": "GA"
+						},											
+						{
+							"name": "ImageCoercion",
+							"apiVersion": "1.1",
 							"availability": "GA"
 						}
 					],
@@ -1616,10 +1673,15 @@
 							"availability": "GA"
 						},
 						{
-							"name": "Bindings.getFileAsync",
+							"name": "Document.getFileAsync",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						},						
+						},		
+						{
+							"name": "File.getSliceAsync",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},											
 						{
 							"name": "Document.addHandlerAsync",
 							"apiVersion": "1.1",
@@ -1799,7 +1861,7 @@
 							"name": "AddinCommands",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						},
+						},					
 						{
 							"name": "MatrixBindings",
 							"apiVersion": "1.1",
