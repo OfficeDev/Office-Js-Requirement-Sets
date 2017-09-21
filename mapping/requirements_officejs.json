@@ -1861,12 +1861,7 @@
 							"name": "AddinCommands",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						},
-						{
-							"name": "AddinCommands",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},						
+						},					
 						{
 							"name": "MatrixBindings",
 							"apiVersion": "1.1",
