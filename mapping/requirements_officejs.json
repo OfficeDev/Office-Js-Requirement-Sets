@@ -844,6 +844,19 @@
 							"availability": "GA"
 						},
 						{
+							"name": "IdentityAPI",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.39",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},						
+						{
 							"name": "DocumentEvents",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [
@@ -1534,7 +1547,20 @@
 								}
 							],
 							"availability": "GA"
-						},						
+						},		
+						{
+							"name": "IdentityAPI",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.0.8625.2003",
+										"version": "1709"
+									}
+								}
+							],
+							"availability": "GA"
+						},											
 						{
 							"name": "DialogApi",
 							"supportedProductVersions": [
@@ -1852,6 +1878,11 @@
 							"apiVersion": "1.1",
 							"availability": "GA"
 						},
+						{
+							"name": "IdentityAPI",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},						
 						{
 							"name": "DocumentEvents",
 							"apiVersion": "1.1",
@@ -3114,6 +3145,19 @@
 							"availability": "GA"
 						},
 						{
+							"name": "IdentityAPI",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.39",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},							
+						{
 							"name": "BindingEvents",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [
@@ -4006,6 +4050,11 @@
 							"name": "DialogApi",
 							"apiVersion": "1.1",
 							"availability": "GA"
+						},						
+						{
+							"name": "IdentityAPI",
+							"apiVersion": "1.1",
+							"availability": "GA"
 						},
 						{
 							"name": "BindingEvents",
@@ -4414,6 +4463,19 @@
 							],
 							"availability": "GA"
 						},
+						{
+							"name": "IdentityAPI",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.0.8625.2003",
+										"version": "1709"
+									}
+								}
+							],
+							"availability": "GA"
+						},						
 						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
@@ -4999,7 +5061,20 @@
 							"name": "AddinCommands",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						},						
+						},		
+						{
+							"name": "IdentityAPI",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.39",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},											
 						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
@@ -5150,6 +5225,11 @@
 							"apiVersion": "1.1",
 							"availability": "GA"
 						},
+						{
+							"name": "IdentityAPI",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},						
 						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
@@ -5322,6 +5402,19 @@
 							"apiVersion": "1.1",
 							"availability": "GA"
 						},
+						{
+							"name": "IdentityAPI",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.0.8625.2003",
+										"version": "1709"
+									}
+								}
+							],
+							"availability": "GA"
+						},						
 						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
