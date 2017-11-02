@@ -91,6 +91,19 @@
 							"availability": "GA"
 						},
 						{
+							"name": "ExcelApi",
+							"apiVersion": "1.6",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "2.2",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},						
+						{
 							"name": "File",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [
@@ -1935,11 +1948,6 @@
 						},
 						{
 							"name": "CompressedFile",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "ImageCoercion",
 							"apiVersion": "1.1",
 							"availability": "GA"
 						},
@@ -4905,26 +4913,16 @@
 						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
-							"availability": "GA",
 							"supportedProductVersions": [
 								{
 									"from": {
-										"build": "15.0.4855.1000",
+										"build": "1.22",
 										"version": null
-									},
-									"to": {
-										"build": "15.9.9999.9999",
-										"version": null
-									}
-								},
-								{
-									"from": {
-										"build": "16.0.6741.0000",
-										"version": "1602"
 									}
 								}
-							]
-						}
+							],
+							"availability": "GA"
+						},						
 					],
 					"supportedMethods": [
 						{
