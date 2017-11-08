@@ -6028,6 +6028,19 @@
 								}
 							],
 							"availability": "GA"
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.5",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.39.1010",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": []
