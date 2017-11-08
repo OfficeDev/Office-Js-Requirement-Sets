@@ -3401,7 +3401,7 @@
 						},
 						{
 							"name": "AddinCommands",
-							"apiVersion": ".1",
+							"apiVersion": "1.1",
 							"supportedProductVersions": [
 								{
 									"from": {
