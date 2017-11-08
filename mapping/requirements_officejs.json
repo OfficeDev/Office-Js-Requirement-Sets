@@ -6062,7 +6062,7 @@
 							"supportedProductVersions": [
 								{
 									"from": {
-										"build": "15.0.847.0",
+										"build": "2.10",
 										"version": null
 									}
 								}
@@ -6075,7 +6075,7 @@
 							"supportedProductVersions": [
 								{
 									"from": {
-										"build": "15.1.135.0",
+										"build": "2.10",
 										"version": null
 									}
 								}
@@ -6088,7 +6088,7 @@
 							"supportedProductVersions": [
 								{
 									"from": {
-										"build": "15.1.225.0",
+										"build": "2.10",
 										"version": null
 									}
 								}
@@ -6101,7 +6101,7 @@
 							"supportedProductVersions": [
 								{
 									"from": {
-										"build": "15.1.448.0",
+										"build": "2.10",
 										"version": null
 									}
 								}
