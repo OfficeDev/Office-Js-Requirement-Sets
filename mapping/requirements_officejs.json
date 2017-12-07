@@ -20,9 +20,6 @@
 						"TaskPaneApp"
 					],
 					"supportedExtensionPoints": [
-						{
-							"code": "addin_command"
-						}
 					],
 					"supportedRequirementSets": [
 						{
@@ -266,19 +263,6 @@
 								{
 									"from": {
 										"build": "1.14",
-										"version": null
-									}
-								}
-							],
-							"availability": "GA"
-						},
-						{
-							"name": "AddinCommands",
-							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "2.22",
 										"version": null
 									}
 								}
@@ -2187,9 +2171,7 @@
 						"TaskPaneApp"
 					],
 					"supportedExtensionPoints": [
-						{
-							"code": "addin_command"
-						}
+
 					],
 					"supportedRequirementSets": [
 						{
@@ -2472,19 +2454,6 @@
 								{
 									"from": {
 										"build": "1.18",
-										"version": null
-									}
-								}
-							],
-							"availability": "GA"
-						},
-						{
-							"name": "AddinCommands",
-							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "2.22",
 										"version": null
 									}
 								}
@@ -4881,9 +4850,6 @@
 						"TaskPaneApp"
 					],
 					"supportedExtensionPoints": [
-						{
-							"code": "addin_command"
-						}
 					],
 					"supportedRequirementSets": [
 						{
@@ -4928,11 +4894,6 @@
 						},
 						{
 							"name": "TextCoercion",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "AddinCommands",
 							"apiVersion": "1.1",
 							"availability": "GA"
 						},
