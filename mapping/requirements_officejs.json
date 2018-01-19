@@ -857,6 +857,32 @@
 							"availability": "GA"
 						},
 						{
+							"name": "Pdffile",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.20",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "Settings",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.20",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},						
+						{
 							"name": "IdentityAPI",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [
