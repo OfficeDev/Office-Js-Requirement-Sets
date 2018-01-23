@@ -5930,13 +5930,26 @@
 							"supportedProductVersions": [
 								{
 									"from": {
-										"build": "16.0.8412.1000",
+										"build": "15.1.990.0",
 										"version": null
 									}
 								}
 							],
 							"availability": "GA"
-						}	
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.6",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "15.20.0441.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						}		
 					],
 					"supportedMethods": []
 				},
@@ -6022,13 +6035,13 @@
 							"supportedProductVersions": [
 								{
 									"from": {
-										"build": "15.39.1010",
+										"build": "15.1.990.0",
 										"version": null
 									}
 								}
 							],
 							"availability": "GA"
-						}
+						},
 					],
 					"supportedMethods": []
 				},
