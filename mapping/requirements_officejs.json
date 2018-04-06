@@ -19,8 +19,7 @@
 						"ContentApp",
 						"TaskPaneApp"
 					],
-					"supportedExtensionPoints": [
-					],
+					"supportedExtensionPoints": [],
 					"supportedRequirementSets": [
 						{
 							"name": "ExcelApi",
@@ -99,7 +98,7 @@
 								}
 							],
 							"availability": "GA"
-						},						
+						},
 						{
 							"name": "File",
 							"apiVersion": "1.1",
@@ -426,7 +425,7 @@
 								}
 							],
 							"availability": "GA"
-						},			
+						},
 						{
 							"name": "File.getSliceAsync",
 							"apiVersion": "1.1",
@@ -439,7 +438,7 @@
 								}
 							],
 							"availability": "GA"
-						},										
+						},
 						{
 							"name": "Document.getSelectedDataAsync",
 							"apiVersion": "1.1",
@@ -800,7 +799,7 @@
 								}
 							],
 							"availability": "GA"
-						},	
+						},
 						{
 							"name": "File",
 							"apiVersion": "1.1",
@@ -865,7 +864,7 @@
 								}
 							],
 							"availability": "GA"
-						},						
+						},
 						{
 							"name": "IdentityAPI",
 							"apiVersion": "1.1",
@@ -878,7 +877,7 @@
 								}
 							],
 							"availability": "GA"
-						},						
+						},
 						{
 							"name": "DocumentEvents",
 							"apiVersion": "1.1",
@@ -1021,7 +1020,7 @@
 								}
 							],
 							"availability": "GA"
-						}						
+						}
 					],
 					"supportedMethods": [
 						{
@@ -1140,7 +1139,7 @@
 								}
 							],
 							"availability": "GA"
-						},												
+						},
 						{
 							"name": "Bindings.releaseByIdAsync",
 							"apiVersion": "1.1",
@@ -1453,6 +1452,9 @@
 						{
 							"from": {
 								"build": "15.0.3612.1010"
+							},
+							"to": {
+								"build": "15.9.9999.9999"
 							}
 						},
 						{
@@ -1570,7 +1572,7 @@
 								}
 							],
 							"availability": "GA"
-						},		
+						},
 						{
 							"name": "IdentityAPI",
 							"apiVersion": "1.1",
@@ -1583,7 +1585,7 @@
 								}
 							],
 							"availability": "GA"
-						},											
+						},
 						{
 							"name": "DialogApi",
 							"supportedProductVersions": [
@@ -1673,7 +1675,7 @@
 								}
 							],
 							"availability": "GA"
-						},											
+						},
 						{
 							"name": "ImageCoercion",
 							"apiVersion": "1.1",
@@ -1725,12 +1727,12 @@
 							"name": "Document.getFileAsync",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						},		
+						},
 						{
 							"name": "File.getSliceAsync",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						},											
+						},
 						{
 							"name": "Document.addHandlerAsync",
 							"apiVersion": "1.1",
@@ -1850,6 +1852,14 @@
 						"ContentApp",
 						"TaskPaneApp"
 					],
+					"supportedProductVersions": [
+						{
+							"from": {
+								"build": "16.0",
+								"version": null
+							}
+						}
+					],
 					"supportedExtensionPoints": [
 						{
 							"code": "addin_command"
@@ -1890,7 +1900,7 @@
 							"name": "ExcelApi",
 							"apiVersion": "1.7",
 							"availability": "beta"
-						},					
+						},
 						{
 							"name": "BindingEvents",
 							"apiVersion": "1.1",
@@ -1905,7 +1915,7 @@
 							"name": "IdentityAPI",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						},						
+						},
 						{
 							"name": "DocumentEvents",
 							"apiVersion": "1.1",
@@ -1915,7 +1925,7 @@
 							"name": "AddinCommands",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						},					
+						},
 						{
 							"name": "MatrixBindings",
 							"apiVersion": "1.1",
@@ -2170,9 +2180,7 @@
 					"supportedAppTypes": [
 						"TaskPaneApp"
 					],
-					"supportedExtensionPoints": [
-
-					],
+					"supportedExtensionPoints": [],
 					"supportedRequirementSets": [
 						{
 							"name": "WordApi",
@@ -3159,7 +3167,7 @@
 								}
 							],
 							"availability": "GA"
-						},							
+						},
 						{
 							"name": "BindingEvents",
 							"apiVersion": "1.1",
@@ -4028,6 +4036,14 @@
 					"supportedAppTypes": [
 						"TaskPaneApp"
 					],
+					"supportedProductVersions": [
+						{
+							"from": {
+								"build": "16.0",
+								"version": null
+							}
+						}
+					],
 					"supportedExtensionPoints": [
 						{
 							"code": "addin_command"
@@ -4053,7 +4069,7 @@
 							"name": "DialogApi",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						},						
+						},
 						{
 							"name": "IdentityAPI",
 							"apiVersion": "1.1",
@@ -4163,7 +4179,7 @@
 							"name": "AddinCommands",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						}						
+						}
 					],
 					"supportedMethods": [
 						{
@@ -4410,6 +4426,9 @@
 						{
 							"from": {
 								"build": "15.0.3612.1010"
+							},
+							"to": {
+								"build": "15.9.9999.9999"
 							}
 						},
 						{
@@ -4478,7 +4497,7 @@
 								}
 							],
 							"availability": "GA"
-						},						
+						},
 						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
@@ -4849,8 +4868,15 @@
 						"ContentApp",
 						"TaskPaneApp"
 					],
-					"supportedExtensionPoints": [
+					"supportedProductVersions": [
+						{
+							"from": {
+								"build": "1.14",
+								"version": null
+							}
+						}
 					],
+					"supportedExtensionPoints": [],
 					"supportedRequirementSets": [
 						{
 							"name": "ActiveView",
@@ -4909,7 +4935,7 @@
 								}
 							],
 							"availability": "GA"
-						}					
+						}
 					],
 					"supportedMethods": [
 						{
@@ -4991,6 +5017,21 @@
 						"ContentApp",
 						"TaskPaneApp"
 					],
+					"supportedProductVersions": [
+						{
+							"from": {
+								"build": "15.1"
+							},
+							"to": {
+								"build": "15.9.9999.9999"
+							}
+						},
+						{
+							"from": {
+								"build":  "16.0"
+							}
+						}
+					],
 					"supportedExtensionPoints": [
 						{
 							"code": "addin_command"
@@ -5046,7 +5087,7 @@
 							"name": "AddinCommands",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						},		
+						},
 						{
 							"name": "IdentityAPI",
 							"apiVersion": "1.1",
@@ -5059,7 +5100,7 @@
 								}
 							],
 							"availability": "GA"
-						},											
+						},
 						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
@@ -5164,6 +5205,13 @@
 						"ContentApp",
 						"TaskPaneApp"
 					],
+					"supportedProductVersions": [
+						{
+							"from": {
+								"build": "16.0"
+							}
+						}
+					],
 					"supportedExtensionPoints": [
 						{
 							"code": "addin_command"
@@ -5214,7 +5262,7 @@
 							"name": "IdentityAPI",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						},						
+						},
 						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
@@ -5328,6 +5376,9 @@
 						{
 							"from": {
 								"build": "15.0.3612.1010"
+							},
+							"to": {
+								"build":  "15.9.9999.9999"
 							}
 						},
 						{
@@ -5399,7 +5450,7 @@
 								}
 							],
 							"availability": "GA"
-						},						
+						},
 						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
@@ -5510,6 +5561,13 @@
 						"ContentApp",
 						"TaskPaneApp"
 					],
+					"supportedProductVersions": [
+						{
+							"from": {
+								"build":  "16.0"
+							}
+						}
+					],
 					"supportedExtensionPoints": [
 						{
 							"code": "addin_command"
@@ -5565,6 +5623,13 @@
 					"title": "Access for Online",
 					"supportedAppTypes": [
 						"ContentApp"
+					],
+					"supportedProductVersions": [
+						{
+							"from": {
+								"build":  "16.0"
+							}
+						}
 					],
 					"supportedExtensionPoints": [],
 					"supportedRequirementSets": [
@@ -5714,6 +5779,21 @@
 					"supportedAppTypes": [
 						"TaskPaneApp"
 					],
+					"supportedProductVersions": [
+						{
+							"from": {
+								"build": "15.1"
+							},
+							"to": {
+								"build":  "15.9.9999.9999"
+							}
+						},
+						{
+							"from": {
+								"build": "16.0"
+							}
+						}
+					],
 					"supportedExtensionPoints": [],
 					"supportedRequirementSets": [
 						{
@@ -5844,11 +5924,6 @@
 							"from": {
 								"build": "15.0.847.0"
 							}
-						},
-						{
-							"from": {
-								"build": "16.0.3629.1006"
-							}
 						}
 					],
 					"supportedAppTypes": [
@@ -5949,15 +6024,22 @@
 								}
 							],
 							"availability": "GA"
-						}		
+						}
 					],
 					"supportedMethods": []
 				},
 				{
 					"code": "Mac",
-					"title": " Outlook for Mac",
+					"title": "Outlook for Mac",
 					"supportedAppTypes": [
 						"MailApp"
+					],
+					"supportedProductVersions": [
+						{
+							"from": {
+								"build": "15.0.847.0"
+							}
+						}
 					],
 					"supportedExtensionPoints": [
 						{
@@ -6064,6 +6146,13 @@
 					"supportedAppTypes": [
 						"MailApp"
 					],
+					"supportedProductVersions": [
+						{
+							"from": {
+								"build": "15.0.847.0"
+							}
+						}
+					],
 					"supportedExtensionPoints": [
 						{
 							"code": "MessageRead"
@@ -6156,6 +6245,13 @@
 					"supportedAppTypes": [
 						"MailApp"
 					],
+					"supportedProductVersions": [
+						{
+							"from": {
+								"build": "15.0.847.0"
+							}
+						}
+					],
 					"supportedExtensionPoints": [
 						{
 							"code": "MessageRead"
@@ -6171,14 +6267,6 @@
 						},
 						{
 							"code": "AttendeeCommandSurface"
-						}
-					],
-					"supportedProductVersions": [
-						{
-							"from": {
-								"build": "2.2.8",
-								"version": null
-							}
 						}
 					],
 					"supportedRequirementSets": [
@@ -6239,9 +6327,16 @@
 				},
 				{
 					"code": "WAC",
-					"title": " Outlook for Online",
+					"title": "Outlook for Online",
 					"supportedAppTypes": [
 						"MailApp"
+					],
+					"supportedProductVersions": [
+						{
+							"from": {
+								"build": "15.0.847.0"
+							}
+						}
 					],
 					"supportedExtensionPoints": [
 						{
@@ -6353,11 +6448,18 @@
 					"supportedAppTypes": [
 						"ContentApp"
 					],
+					"supportedProductVersions": [
+						{
+							"from": {
+								"build": "1.0"
+							}
+						}
+					],
 					"supportedExtensionPoints": [],
 					"supportedRequirementSets": [
 						{
 							"name": "TeamsAPI",
-							"apiVersion": "1.0",
+							"apiVersion": "10.0",
 							"availability": "GA"
 						}
 					],
@@ -6373,6 +6475,13 @@
 					"title": "Power BI",
 					"supportedAppTypes": [
 						"ContentApp"
+					],
+					"supportedProductVersions": [
+						{
+							"from": {
+								"build":  "1.0"
+							}
+						}
 					],
 					"supportedExtensionPoints": [],
 					"supportedRequirementSets": [
