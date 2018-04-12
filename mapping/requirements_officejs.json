@@ -1680,6 +1680,30 @@
 							"name": "ImageCoercion",
 							"apiVersion": "1.1",
 							"availability": "GA"
+						},
+						{
+							"name": "DataAnalytics.PowerBI",
+							"apiVersion": "1.1",
+							"availability": "GA",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.0.9310.0"
+									}
+								}
+							]
+						},
+						{
+							"name": "DataAnalytics.Office",
+							"apiVersion": "1.1",
+							"availability": "GA",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.0.9310.0"
+									}
+								}
+							]
 						}
 					],
 					"supportedMethods": [
@@ -6492,6 +6516,11 @@
 						},
 						{
 							"name": "BuiltWithR.PowerBI",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "DataAnalytics.Office",
 							"apiVersion": "1.1",
 							"availability": "GA"
 						}
