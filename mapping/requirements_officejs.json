@@ -6493,6 +6493,7 @@
 		},
 		{
 			"code": "PowerBI",
+			"host": "PowerBI",
 			"platforms": [
 				{
 					"code": "Any",
