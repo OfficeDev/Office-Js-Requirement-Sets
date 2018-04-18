@@ -82,7 +82,8 @@
                 "Notebook",
                 "Presentation",
                 "Project",
-                "Workbook"
+                "Workbook",
+                "PowerBI"
             ]
         },
         "method": {
