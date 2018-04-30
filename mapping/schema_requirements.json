@@ -16,7 +16,8 @@
             "type": "string",
             "enum": [
                 "GA",
-                "Beta"
+                "Beta",
+                "Alpha"
             ]
         },
         "buildVersion": {
