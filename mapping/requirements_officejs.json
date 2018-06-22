@@ -100,6 +100,19 @@
 							"availability": "GA"
 						},
 						{
+							"name": "ExcelApi",
+							"apiVersion": "1.7",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "2.9",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},						
+						{
 							"name": "File",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [
@@ -800,6 +813,19 @@
 							],
 							"availability": "GA"
 						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.7",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.9",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},						
 						{
 							"name": "File",
 							"apiVersion": "1.1",
@@ -1553,12 +1579,12 @@
 							"supportedProductVersions": [
 								{
 									"from": {
-										"build": "16.0.8201.2001",
-										"version": "1704"
+										"build": "16.0.9001.2171",
+										"version": "1801"
 									}
 								}
 							],
-							"availability": "Beta"
+							"availability": "GA"
 						},
 						{
 							"name": "File",
@@ -1911,7 +1937,7 @@
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.7",
-							"availability": "beta"
+							"availability": "GA"
 						},
 						{
 							"name": "BindingEvents",
