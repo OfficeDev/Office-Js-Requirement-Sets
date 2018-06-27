@@ -1661,6 +1661,13 @@
 						{
 							"name": "AddinCommands",
 							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.0"
+									}
+								}
+							],
 							"availability": "GA"
 						},
 						{
@@ -4626,6 +4633,13 @@
 						{
 							"name": "AddinCommands",
 							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.0"
+									}
+								}
+							],
 							"availability": "GA"
 						}
 					],
@@ -5448,6 +5462,13 @@
 						{
 							"name": "AddinCommands",
 							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.0"
+									}
+								}
+							],
 							"availability": "GA"
 						},
 						{
