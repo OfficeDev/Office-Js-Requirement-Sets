@@ -1,0 +1,26 @@
+{
+  "name": "office-js-requirement-sets",
+  "version": "1.0.0",
+  "description": "A central source of mapping of Office hosts and their corresponding OfficeJs requirement sets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ajv validate -s mapping/schema_requirements.json -d mapping/requirements_officejs.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OfficeDev/Office-Js-Requirement-Sets.git"
+  },
+  "keywords": [
+    "office",
+    "officejs",
+    "add-ins"
+  ],
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/OfficeDev/Office-Js-Requirement-Sets/issues"
+  },
+  "homepage": "https://github.com/OfficeDev/Office-Js-Requirement-Sets#readme",
+  "devDependencies": {
+    "ajv-cli": "^3.0.0"
+  }
+}
