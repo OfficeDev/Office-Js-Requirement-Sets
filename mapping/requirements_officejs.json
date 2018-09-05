@@ -1362,6 +1362,7 @@
 						},
 						{
 							"name": "DialogApi",
+							"apiVersion": "1.1",
 							"supportedProductVersions": [{
 									"from": {
 										"build": "15.0.4855.1000",
