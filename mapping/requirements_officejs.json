@@ -4,7 +4,7 @@
 			"host": "Workbook",
 			"platforms": [{
 					"code": "IOS",
-					"title": "Excel for iOS",
+					"title": "Excel for iPad",
 					"supportedProductVersions": [{
 						"from": {
 							"build": "1.14",
@@ -1985,7 +1985,7 @@
 			"host": "Document",
 			"platforms": [{
 					"code": "IOS",
-					"title": "Word for iOS",
+					"title": "Word for iPad",
 					"supportedProductVersions": [{
 						"from": {
 							"build": "1.18",
@@ -4374,7 +4374,7 @@
 			"host": "Presentation",
 			"platforms": [{
 					"code": "IOS",
-					"title": "PowerPoint for iOS",
+					"title": "PowerPoint for iPad",
 					"supportedAppTypes": [
 						"ContentApp",
 						"TaskPaneApp"
