@@ -1502,13 +1502,8 @@
 							}]
 						},
 						{
-							"name": "CustomFunctions",
-							"apiVersion": "1.2",
-							"availability": "GA"
-						},
-						{
 							"name": "CustomFunctionsRuntime",
-							"apiVersion": "1.2",
+							"apiVersion": "1.1",
 							"availability": "GA"
 						},
 					],
@@ -1806,13 +1801,8 @@
 							"availability": "GA"
 						},
 						{
-							"name": "CustomFunctions",
-							"apiVersion": "1.2",
-							"availability": "GA"
-						},
-						{
 							"name": "CustomFunctionsRuntime",
-							"apiVersion": "1.2",
+							"apiVersion": "1.1",
 							"availability": "GA"
 						}
 					],
