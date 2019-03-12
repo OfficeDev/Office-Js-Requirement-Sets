@@ -1500,6 +1500,11 @@
 									"build": "16.0.9310.0"
 								}
 							}]
+						},
+						{
+							"name": "CustomFunctionsRuntime",
+							"apiVersion": "1.1",
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
@@ -1792,6 +1797,11 @@
 						},
 						{
 							"name": "File",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "CustomFunctionsRuntime",
 							"apiVersion": "1.1",
 							"availability": "GA"
 						}
