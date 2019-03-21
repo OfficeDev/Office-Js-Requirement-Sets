@@ -903,7 +903,18 @@
 								}
 							}],
 							"availability": "GA"
-						}
+						},
+						{
+							"name": "CustomFunctionsRuntime",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.23",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						}                        
 					],
 					"supportedMethods": [{
 							"name": "Binding.addHandlerAsync",
@@ -1504,8 +1515,14 @@
 						{
 							"name": "CustomFunctionsRuntime",
 							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.11425.20156",
+									"version": null
+								}
+							}],
 							"availability": "GA"
-						}
+						}  
 					],
 					"supportedMethods": [{
 							"name": "Binding.addHandlerAsync",
