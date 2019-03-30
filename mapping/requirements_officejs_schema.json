@@ -211,7 +211,8 @@
                 "PowerPoint",
                 "Project",
                 "Teams",
-                "Word"
+                "Word",
+		"SharePoint"
             ]
         },
         "requirementSet": {
