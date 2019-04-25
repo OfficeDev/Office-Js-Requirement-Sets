@@ -105,6 +105,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "ExcelApi",
+							"apiVersion": "1.9",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "2.24",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "File",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -712,6 +723,17 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "16.17",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.9",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.24",
 									"version": null
 								}
 							}],
@@ -1383,6 +1405,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "ExcelApi",
+							"apiVersion": "1.9",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.11425.20204",
+									"version": "1903"
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "File",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -1740,6 +1773,11 @@
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.8",
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.9",
 							"availability": "GA"
 						},
 						{
