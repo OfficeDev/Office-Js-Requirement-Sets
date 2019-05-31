@@ -5760,19 +5760,10 @@
 						}
 					}],
 					"supportedExtensionPoints": [{
-							"code": "MessageRead"
+							"code": "MobileMessageReadCommandSurface"
 						},
 						{
-							"code": "ComposeCommandSurface"
-						},
-						{
-							"code": "Modules"
-						},
-						{
-							"code": "AppointmentOrganizer"
-						},
-						{
-							"code": "AttendeeCommandSurface"
+							"code": "MobileOnlineMeetingCommandSurface"
 						}
 					],
 					"supportedRequirementSets": [{
