@@ -711,7 +711,7 @@
 							"apiVersion": "1.7",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.9",
+									"build": "16.0.125.1000",
 									"version": null
 								}
 							}],
