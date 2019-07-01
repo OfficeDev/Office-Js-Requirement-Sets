@@ -1450,12 +1450,22 @@
 										"version": null
 									}
 								},
-								{
-									"from": {
-										"build": "16.0.6741.0000",
-										"version": "1602"
-									}
-								}
+                                {
+                                    "from": {
+                                        "build": "16.0.4390.1000",
+                                        "version": null
+                                    },
+                                    "to": {
+                                        "build": "16.0.5999.1000",
+                                        "version": null
+                                    }                                    
+                                },
+                                {
+                                    "from": {
+                                        "build": "16.0.6741.0000",
+                                        "version": "1602"
+                                    }
+                                } 
 							],
 							"availability": "GA"
 						},
@@ -4085,12 +4095,22 @@
 										"version": null
 									}
 								},
-								{
-									"from": {
-										"build": "16.0.6741.0000",
-										"version": "1602"
-									}
-								}
+                                {
+                                    "from": {
+                                        "build": "16.0.4390.1000",
+                                        "version": null
+                                    },
+                                    "to": {
+                                        "build": "16.0.5999.1000",
+                                        "version": null
+                                    }                                    
+                                },
+                                {
+                                    "from": {
+                                        "build": "16.0.6741.0000",
+                                        "version": "1602"
+                                    }
+                                } 
 							],
 							"availability": "GA"
 						},
@@ -4679,12 +4699,22 @@
 										"version": null
 									}
 								},
-								{
-									"from": {
-										"build": "16.0.6741.0000",
-										"version": "1602"
-									}
-								}
+                                {
+                                    "from": {
+                                        "build": "16.0.4390.1000",
+                                        "version": null
+                                    },
+                                    "to": {
+                                        "build": "16.0.5999.1000",
+                                        "version": null
+                                    }                                    
+                                },
+                                {
+                                    "from": {
+                                        "build": "16.0.6741.0000",
+                                        "version": "1602"
+                                    }
+                                } 
 							]
 						}
 					],
@@ -4834,12 +4864,22 @@
 										"version": null
 									}
 								},
-								{
-									"from": {
-										"build": "16.0.6741.0000",
-										"version": "1602"
-									}
-								}
+                                {
+                                    "from": {
+                                        "build": "16.0.4390.1000",
+                                        "version": null
+                                    },
+                                    "to": {
+                                        "build": "16.0.5999.1000",
+                                        "version": null
+                                    }                                    
+                                },
+                                {
+                                    "from": {
+                                        "build": "16.0.6741.0000",
+                                        "version": "1602"
+                                    }
+                                } 
 							]
 						}
 					],
@@ -5019,12 +5059,22 @@
 										"version": null
 									}
 								},
-								{
-									"from": {
-										"build": "16.0.6741.0000",
-										"version": "1602"
-									}
-								}
+                                {
+                                    "from": {
+                                        "build": "16.0.4390.1000",
+                                        "version": null
+                                    },
+                                    "to": {
+                                        "build": "16.0.5999.1000",
+                                        "version": null
+                                    }                                    
+                                },
+                                {
+                                    "from": {
+                                        "build": "16.0.6741.0000",
+                                        "version": "1602"
+                                    }
+                                } 
 							]
 						}
 					],
