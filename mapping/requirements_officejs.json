@@ -799,7 +799,7 @@
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "15.38.902.0",
+									"build": "15.38.801.0",
 									"version": null
 								}
 							}],
