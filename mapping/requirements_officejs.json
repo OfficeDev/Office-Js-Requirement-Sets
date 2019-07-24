@@ -4762,7 +4762,7 @@
 				},
 				{
 					"code": "WAC",
-					"title": "PowerPoint for Online",
+					"title": "PowerPoint Online",
 					"supportedAppTypes": [
 						"ContentApp",
 						"TaskPaneApp"
@@ -4823,24 +4823,7 @@
 						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
-							"availability": "GA",
-							"supportedProductVersions": [{
-									"from": {
-										"build": "15.0.4855.1000",
-										"version": null
-									},
-									"to": {
-										"build": "15.9.9999.9999",
-										"version": null
-									}
-								},
-								{
-									"from": {
-										"build": "16.0.6741.0000",
-										"version": "1602"
-									}
-								}
-							]
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
