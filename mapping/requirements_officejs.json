@@ -667,7 +667,7 @@
 							"apiVersion": "1.3",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "15.27.1003.0",
+									"build": "15.0.1003.0",
 									"version": null
 								}
 							}],
@@ -909,7 +909,7 @@
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "15.32.201.0",
+									"build": "15.0.201.0",
 									"version": null
 								}
 							}],
@@ -4659,7 +4659,7 @@
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "15.39.1004.0",
+									"build": "15.0.1004.0",
 									"version": null
 								}
 							}],
