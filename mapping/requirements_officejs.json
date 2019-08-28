@@ -4506,7 +4506,18 @@
 								}
 							}],
 							"availability": "GA"
-						}
+                        },
+						{
+							"name": "PowerPointApi",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "2.24",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+                        }                        
 					],
 					"supportedMethods": [{
 							"name": "Document.addHandlerAsync",
@@ -4686,7 +4697,18 @@
 									}
 								}
 							]
-						}
+                        },
+						{
+							"name": "PowerPointApi",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.403.1000",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+                        }                          
 					],
 					"supportedMethods": [{
 							"name": "Document.addHandlerAsync",
@@ -4824,7 +4846,12 @@
 							"name": "DialogApi",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						}
+                        },
+						{
+							"name": "PowerPointApi",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						}                        
 					],
 					"supportedMethods": [{
 							"name": "Document.addHandlerAsync",
@@ -5009,7 +5036,18 @@
 									}
 								}
 							]
-						}
+                        },
+						{
+							"name": "IdentityAPI",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.11425.20204",
+									"version": "1903"
+								}
+							}],
+							"availability": "GA"
+						}                       
 					],
 					"supportedMethods": [{
 							"name": "Document.addHandlerAsync",
