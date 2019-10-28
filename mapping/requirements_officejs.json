@@ -733,7 +733,7 @@
 							"apiVersion": "1.8",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.17",
+									"build": "16.0.403.1000",
 									"version": null
 								}
 							}],
