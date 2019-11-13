@@ -733,7 +733,7 @@
 							"apiVersion": "1.8",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.0.403.1000",
+									"build": "16.0.909.0",
 									"version": null
 								}
 							}],
@@ -744,7 +744,7 @@
 							"apiVersion": "1.9",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.0.403.1000",
+									"build": "16.0.414.0",
 									"version": null
 								}
 							}],
@@ -755,7 +755,7 @@
 							"apiVersion": "1.10",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.30",
+									"build": "16.0.1013.0",
 									"version": null
 								}
 							}],
