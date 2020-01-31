@@ -21,7 +21,7 @@
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "1.19",
+									"build": "15.0.0.0",
 									"version": null
 								}
 							}],
@@ -32,7 +32,7 @@
 							"apiVersion": "1.2",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "1.21",
+									"build": "15.0.0.0",
 									"version": null
 								}
 							}],
@@ -43,7 +43,7 @@
 							"apiVersion": "1.3",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "1.27",
+									"build": "15.0.0.0",
 									"version": null
 								}
 							}],
@@ -54,7 +54,7 @@
 							"apiVersion": "1.4",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "2.2",
+									"build": "15.0.0.0",
 									"version": null
 								}
 							}],
@@ -65,7 +65,7 @@
 							"apiVersion": "1.5",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "2.2",
+									"build": "15.0.0.0",
 									"version": null
 								}
 							}],
@@ -76,7 +76,7 @@
 							"apiVersion": "1.6",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "2.2",
+									"build": "15.0.0.0",
 									"version": null
 								}
 							}],
@@ -87,7 +87,7 @@
 							"apiVersion": "1.7",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "2.9",
+									"build": "16.0.0.0",
 									"version": null
 								}
 							}],
@@ -98,7 +98,7 @@
 							"apiVersion": "1.8",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "2.17",
+									"build": "16.0.0.0",
 									"version": null
 								}
 							}],
@@ -109,7 +109,7 @@
 							"apiVersion": "1.9",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "2.24",
+									"build": "16.0.0.0",
 									"version": null
 								}
 							}],
@@ -120,7 +120,7 @@
 							"apiVersion": "1.10",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "2.30",
+									"build": "16.0.0.0",
 									"version": null
 								}
 							}],
@@ -716,7 +716,7 @@
 								}
 							}],
 							"availability": "GA"
-						},
+						},  
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.7",
