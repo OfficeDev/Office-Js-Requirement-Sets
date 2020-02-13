@@ -3664,7 +3664,6 @@
 					"code": "WAC",
 					"title": "Word Online",
 					"supportedAppTypes": [
-						"ContentApp",
 						"TaskPaneApp"
 					],
 					"supportedProductVersions": [{
