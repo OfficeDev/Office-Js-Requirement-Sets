@@ -5611,7 +5611,18 @@
 								}
 							}],
 							"availability": "GA"
-						}                        
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.8",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.20.2078.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						}                    
 					],
 					"supportedMethods": []
 				},
@@ -5714,6 +5725,17 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "15.20.1063.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.8",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.20.2078.0",
 									"version": null
 								}
 							}],
@@ -5982,6 +6004,17 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "15.20.1063.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.8",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.20.2078.0",
 									"version": null
 								}
 							}],
