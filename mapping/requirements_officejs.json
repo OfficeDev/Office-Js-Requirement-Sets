@@ -4539,7 +4539,7 @@
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "1.22",
+									"build": "16.0.0.0",
 									"version": null
 								}
 							}],
@@ -4550,7 +4550,7 @@
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "2.24",
+									"build": "16.0.0.0",
 									"version": null
 								}
 							}],
@@ -5049,6 +5049,17 @@
 								"from": {
 									"build": "16.0.8625.2003",
 									"version": "1709"
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "PowerPointApi",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.11001.20074",
+									"version": "1810"
 								}
 							}],
 							"availability": "GA"
