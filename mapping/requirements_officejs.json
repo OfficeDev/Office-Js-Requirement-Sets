@@ -980,7 +980,18 @@
 								}
 							}],
 							"availability": "GA"
-						}                        
+						},
+						{
+							"name": "SharedRuntime",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.35",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						}
 					],
 					"supportedMethods": [{
 							"name": "Binding.addHandlerAsync",
@@ -1621,7 +1632,18 @@
 								}
 							}],
 							"availability": "GA"
-						}  
+						},
+						{
+							"name": "SharedRuntime",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.12527.20092",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						}
 					],
 					"supportedMethods": [{
 							"name": "Binding.addHandlerAsync",
@@ -1933,6 +1955,11 @@
 						},
 						{
 							"name": "CustomFunctionsRuntime",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "SharedRuntime",
 							"apiVersion": "1.1",
 							"availability": "GA"
 						}
