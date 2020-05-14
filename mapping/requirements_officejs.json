@@ -1632,7 +1632,7 @@
 								}
 							}],
 							"availability": "GA"
-						}
+						},
 						{
 							"name": "RibbonApi",
 							"apiVersion": "1.1",
