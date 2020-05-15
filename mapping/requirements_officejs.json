@@ -980,7 +980,18 @@
 								}
 							}],
 							"availability": "GA"
-						}                        
+						},
+						{
+							"name": "RibbonApi",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.38.0.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						}
 					],
 					"supportedMethods": [{
 							"name": "Binding.addHandlerAsync",
@@ -1621,7 +1632,18 @@
 								}
 							}],
 							"availability": "GA"
-						}  
+						},
+						{
+							"name": "RibbonApi",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.12527.20264",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						}
 					],
 					"supportedMethods": [{
 							"name": "Binding.addHandlerAsync",
