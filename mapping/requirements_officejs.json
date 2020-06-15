@@ -175,7 +175,7 @@
 							"apiVersion": "1.2",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "2.37.504.0",
+									"build": "16.37.0.0",
 									"version": null
 								}
 							}],
@@ -843,7 +843,7 @@
 							"apiVersion": "1.2",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.37.20051002",
+									"build": "16.37.510.0",
 									"version": null
 								}
 							}],
@@ -2275,7 +2275,7 @@
 							"apiVersion": "1.2",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "2.37.504.0",
+									"build": "16.37.0.0",
 									"version": null
 								}
 							}],
@@ -3063,7 +3063,7 @@
 							"apiVersion": "1.2",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.37.20051002",
+									"build": "16.37.510.0",
 									"version": null
 								}
 							}],
@@ -4717,7 +4717,7 @@
 							"apiVersion": "1.2",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "2.37.504.0",
+									"build": "16.37.0.0",
 									"version": null
 								}
 							}],
@@ -4919,7 +4919,7 @@
 							"apiVersion": "1.2",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.37.20051002",
+									"build": "16.37.510.0",
 									"version": null
 								}
 							}],
