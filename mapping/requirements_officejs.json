@@ -171,6 +171,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "DialogApi",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.37.0.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "DocumentEvents",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -822,6 +833,17 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "15.0.203.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "DialogApi",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.37.510.0",
 									"version": null
 								}
 							}],
@@ -1559,6 +1581,19 @@
 							"availability": "GA"
 						},
 						{
+							"name": "DialogApi",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.0.12527.20720",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
 							"name": "BindingEvents",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -1916,6 +1951,11 @@
 							"availability": "GA"
 						},
 						{
+							"name": "DialogApi",
+							"apiVersion": "1.2",
+							"availability": "GA"
+						},
+						{
 							"name": "IdentityAPI",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -2225,6 +2265,17 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "1.22",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "DialogApi",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.37.0.0",
 									"version": null
 								}
 							}],
@@ -3008,6 +3059,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "DialogApi",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.37.510.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "IdentityAPI",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -3783,6 +3845,11 @@
 							"availability": "GA"
 						},
 						{
+							"name": "DialogApi",
+							"apiVersion": "1.2",
+							"availability": "GA"
+						},
+						{
 							"name": "IdentityAPI",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -4220,6 +4287,19 @@
 							"availability": "GA"
 						},
 						{
+							"name": "DialogApi",
+							"apiVersion": "1.2",
+							"availability": "GA",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.0.12527.20720",
+										"version": null
+									}
+								}
+							]
+						},
+						{
 							"name": "BindingEvents",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -4631,7 +4711,18 @@
 								}
 							}],
 							"availability": "GA"
-                        },
+						},
+						{
+							"name": "DialogApi",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.37.0.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
 						{
 							"name": "PowerPointApi",
 							"apiVersion": "1.1",
@@ -4822,7 +4913,18 @@
 									}
 								}
 							]
-                        },
+						},
+						{
+							"name": "DialogApi",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.37.510.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
 						{
 							"name": "PowerPointApi",
 							"apiVersion": "1.1",
@@ -4971,12 +5073,17 @@
 							"name": "DialogApi",
 							"apiVersion": "1.1",
 							"availability": "GA"
-                        },
+						},
+						{
+							"name": "DialogApi",
+							"apiVersion": "1.2",
+							"availability": "GA"
+						},
 						{
 							"name": "PowerPointApi",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						}                        
+						}
 					],
 					"supportedMethods": [{
 							"name": "Document.addHandlerAsync",
@@ -5172,7 +5279,20 @@
 									}
 								}
 							]
-                        },
+						},
+						{
+							"name": "DialogApi",
+							"apiVersion": "1.2",
+							"availability": "GA",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.0.12527.20720",
+										"version": null
+									}
+								}
+							]
+						},
 						{
 							"name": "IdentityAPI",
 							"apiVersion": "1.1",
