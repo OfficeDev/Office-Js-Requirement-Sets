@@ -6242,7 +6242,18 @@
 								}
 							}],
 							"availability": "GA"
-						}                        
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.9",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.20.3233.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						}
 					],
 					"supportedMethods": []
 				}
