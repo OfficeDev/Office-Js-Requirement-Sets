@@ -6248,7 +6248,7 @@
 							"apiVersion": "1.9",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "15.20.3233.0",
+									"build": "15.20.3300.0",
 									"version": null
 								}
 							}],
