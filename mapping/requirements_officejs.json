@@ -138,6 +138,19 @@
 							"availability": "GA"
 						},
 						{
+							"name": "ExcelApi",
+							"apiVersion": "1.12",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.40.0.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
 							"name": "File",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -792,6 +805,19 @@
 									"version": null
 								}
 							}],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.12",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.40.0.0",
+										"version": null
+									}
+								}
+							],
 							"availability": "GA"
 						},
 						{
@@ -1548,6 +1574,19 @@
 							"availability": "GA"
 						},
 						{
+							"name": "ExcelApi",
+							"apiVersion": "1.12",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.0.13127.20408",
+										"version": "2008"
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
 							"name": "SharedRuntime",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -1977,6 +2016,11 @@
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.11",
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.12",
 							"availability": "GA"
 						},
 						{
