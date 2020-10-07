@@ -5614,24 +5614,24 @@
 							"apiVersion": "1.1",
 							"availability": "GA",
 							"supportedProductVersions": [{
-									"from": {
-										"build": "15.0.4855.1000",
-										"version": null
-									},
-									"to": {
-										"build": "15.9.9999.9999",
-										"version": null
-									}
-								},
-								{
-									"from": {
-										"build": "16.0.4390.1000",
-										"version": null
+                                "from": {
+                                    "build": "15.0.4855.1000",
+                                    "version": null
+                                },
+                                "to": {
+                                    "build": "15.9.9999.9999",
+                                    "version": null
+                                    }
+                                },
+                                {
+                                    "from": {
+                                        "build": "16.0.4390.1000",
+                                        "version": null
                                     },
-									"to": {
-										"build": "16.0.5999.1000",
-										"version": null
-									}                                    
+                                    "to": {
+                                        "build": "16.0.5999.1000",
+                                        "version": null
+                                    }                                    
                                 },
                                 {
                                     "from": {
