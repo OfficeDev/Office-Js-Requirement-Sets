@@ -5063,6 +5063,17 @@
 								}
 							}],
 							"availability": "GA"
+                        },
+						{
+							"name": "PowerPointApi",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.43.0.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
                         }
 					],
 					"supportedMethods": [{
@@ -5298,6 +5309,17 @@
 								}
 							}],
 							"availability": "GA"
+                        },
+						{
+							"name": "PowerPointApi",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.13426.20184",
+									"version": null
+								}
+							}],
+							"availability": "GA"
                         }
 					],
 					"supportedMethods": [{
@@ -5455,6 +5477,11 @@
 						{
 							"name": "PowerPointApi",
 							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "PowerPointApi",
+							"apiVersion": "1.2",
 							"availability": "GA"
 						}
 					],
