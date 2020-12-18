@@ -314,17 +314,6 @@
 								}
 							}],
 							"availability": "GA"
-						},
-						{
-							"name": "CompressedFile",
-							"apiVersion": "1.1",
-							"supportedProductVersions": [{
-								"from": {
-									"build": "2.22",
-									"version": null
-								}
-							}],
-							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
