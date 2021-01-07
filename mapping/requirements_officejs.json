@@ -5088,6 +5088,11 @@
 							"name": "PowerPointApi",
 							"apiVersion": "1.1",
 							"availability": "GA"
+						},
+						{
+							"name": "RibbonApi",
+							"apiVersion": "1.1",
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
