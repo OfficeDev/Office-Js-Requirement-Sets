@@ -5465,6 +5465,11 @@
 						},
 						{
 							"name": "PowerPointApi",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "PowerPointApi",
 							"apiVersion": "1.2",
 							"availability": "GA"
 						},
