@@ -1111,7 +1111,7 @@
 							"apiVersion": "1.2",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.43.0.0",
+									"build": "16.44.0.0",
 									"version": null
 								}
 							}],
@@ -1876,7 +1876,7 @@
 							"apiVersion": "1.2",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.0.13427.20000",
+									"build": "16.0.13519.20000",
 									"version": null
 								}
 							}],
