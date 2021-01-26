@@ -1122,7 +1122,7 @@
 							"apiVersion": "1.2",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.48.0.0",
+									"build": "16.44.0.0",
 									"version": null
 								}
 							}],
@@ -1877,7 +1877,7 @@
 							"apiVersion": "1.2",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.0.13725.20000",
+									"build": "16.0.13519.20000",
 									"version": null
 								}
 							}],
@@ -2234,7 +2234,7 @@
 						},
 						{
 							"name": "RibbonApi",
-							"apiVersion": "1.1",
+							"apiVersion": "1.2",
 							"availability": "GA"
 						}
 					],
