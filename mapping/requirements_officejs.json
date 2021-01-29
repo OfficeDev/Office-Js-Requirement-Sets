@@ -5052,18 +5052,7 @@
 								}
 							}],
 							"availability": "GA"
-                        },
-						{
-							"name": "PowerPointApi",
-							"apiVersion": "1.2",
-							"supportedProductVersions": [{
-								"from": {
-									"build": "16.43.0.0",
-									"version": null
-								}
-							}],
-							"availability": "GA"
-                        }
+						}
 					],
 					"supportedMethods": [{
 							"name": "Document.addHandlerAsync",
@@ -5298,18 +5287,18 @@
 								}
 							}],
 							"availability": "GA"
-                        },
+						},
 						{
 							"name": "PowerPointApi",
 							"apiVersion": "1.2",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.0.13426.20184",
+									"build": "16.43.0.0",
 									"version": null
 								}
 							}],
 							"availability": "GA"
-                        }
+						}
 					],
 					"supportedMethods": [{
 							"name": "Document.addHandlerAsync",
@@ -5637,6 +5626,17 @@
 								"from": {
 									"build": "16.0.11001.20074",
 									"version": "1810"
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "PowerPointApi",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.13426.20184",
+									"version": null
 								}
 							}],
 							"availability": "GA"
