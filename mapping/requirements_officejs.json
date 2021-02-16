@@ -1052,6 +1052,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "AddinCommands",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.44.0.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "CompressedFile",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -1797,6 +1808,16 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "16.0"
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "AddinCommands",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.13530.20064"
 								}
 							}],
 							"availability": "GA"
@@ -3543,6 +3564,17 @@
 								}
 							}],
 							"availability": "GA"
+						},
+						{
+							"name": "AddinCommands",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.44.0.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
@@ -4706,6 +4738,16 @@
 								}
 							}],
 							"availability": "GA"
+						},
+						{
+							"name": "AddinCommands",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.13530.20064"
+								}
+							}],
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
@@ -5199,7 +5241,18 @@
 							"name": "AddinCommands",
 							"apiVersion": "1.1",
 							"availability": "GA"
-                        },
+						},
+						{
+							"name": "AddinCommands",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.44.0.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
 						{
 							"name": "OpenBrowserWindowApi",
 							"apiVersion": "1.1",
@@ -5615,6 +5668,16 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "16.0"
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "AddinCommands",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.13530.20064"
 								}
 							}],
 							"availability": "GA"
