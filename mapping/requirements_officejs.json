@@ -1589,8 +1589,18 @@
 							"apiVersion": "1.8",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.0.10730.20102",
-									"version": "1808"
+									"build": "16.0.10336.10000",
+									"version": null
+								},
+								"to": {
+									"build": "16.0.10699.10000",
+									"version": null
+								}
+							},
+							{
+							"from": {
+								"build": "16.0.10730.20102",
+								"version": "1808"
 								}
 							}],
 							"availability": "GA"
