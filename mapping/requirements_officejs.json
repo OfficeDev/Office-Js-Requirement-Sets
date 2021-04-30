@@ -2650,17 +2650,6 @@
 							"availability": "GA"
 						},
 						{
-							"name": "PdfFile",
-							"apiVersion": "1.1",
-							"supportedProductVersions": [{
-								"from": {
-									"build": "1.18",
-									"version": null
-								}
-							}],
-							"availability": "GA"
-						},
-						{
 							"name": "Selection",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
