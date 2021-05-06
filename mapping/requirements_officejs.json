@@ -1116,17 +1116,6 @@
 								}
 							}],
 							"availability": "GA"
-						},
-						{
-							"name": "RibbonApi",
-							"apiVersion": "1.2",
-							"supportedProductVersions": [{
-								"from": {
-									"build": "16.44.0.0",
-									"version": null
-								}
-							}],
-							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
