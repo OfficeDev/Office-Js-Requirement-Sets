@@ -5517,7 +5517,12 @@
 							"name": "RibbonApi",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						}
+						},
+						{
+							"name": "DocumentEvents",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						}								     
 					],
 					"supportedMethods": [{
 							"name": "Document.addHandlerAsync",
