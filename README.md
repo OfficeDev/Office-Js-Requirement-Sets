@@ -13,7 +13,7 @@ For general information about where add-ins are supported by Office host, see  [
 This repository contains the following assets:
 
 1. [Mapping JSON file](mapping/requirements_officejs.json)
-2. [Mapping JSON file schema](mapping/schema_requirements.json)
+2. [Mapping JSON file schema](mapping/requirements_officejs_schema.json)
 
 ## Contribution
 
