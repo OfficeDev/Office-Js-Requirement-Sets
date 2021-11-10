@@ -884,6 +884,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "KeyboardShortcuts",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.55.0.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "OpenBrowserWindowApi",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -1741,6 +1752,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "KeyboardShortcuts",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.14701.10000",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "File",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -2231,6 +2253,11 @@
 						},
 						{
 							"name": "SharedRuntime",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "KeyboardShortcuts",
 							"apiVersion": "1.1",
 							"availability": "GA"
 						},
