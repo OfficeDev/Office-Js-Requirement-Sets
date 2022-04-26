@@ -177,6 +177,19 @@
 							"availability": "GA"
 						},
 						{
+							"name": "ExcelApi",
+							"apiVersion": "1.15",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.59.0.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
 							"name": "OpenBrowserWindowApi",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -866,6 +879,19 @@
 								{
 									"from": {
 										"build": "16.52.0.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.15",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.58.0.0",
 										"version": null
 									}
 								}
@@ -1743,6 +1769,19 @@
 							"availability": "GA"
 						},
 						{
+							"name": "ExcelApi",
+							"apiVersion": "1.15",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.0.14931.20132",
+										"version": "2202"
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
 							"name": "OpenBrowserWindowApi",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -2262,6 +2301,11 @@
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.14",
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.15",
 							"availability": "GA"
 						},
 						{
