@@ -3460,7 +3460,7 @@
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.46.207.0",
+									"build": "16.61.401.0",
 									"version": null
 								}
 							}],
@@ -4741,7 +4741,7 @@
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.0.13218.10000",
+									"build": "16.0.15202.10000",
 									"version": null
 								}
 							}],
@@ -5587,7 +5587,7 @@
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.46.207.0",
+									"build": "16.46.120.0",
 									"version": null
 								}
 							}],
@@ -5997,7 +5997,7 @@
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.0.13218.10000",
+									"build": "16.0.13722.10000",
 									"version": null
 								}
 							}],
