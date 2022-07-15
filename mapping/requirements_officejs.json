@@ -6700,7 +6700,7 @@
 							"apiVersion": "1.12",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "15.20.5398.0",
+									"build": "15.20.5389.0",
 									"version": null
 								}
 							}],
