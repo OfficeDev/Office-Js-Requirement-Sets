@@ -6858,6 +6858,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "Mailbox",
+							"apiVersion": "1.11",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.20.4871.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "OpenBrowserWindowApi",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -7175,6 +7186,28 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "15.20.3863.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.11",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.20.4871.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.12",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.20.5389.0",
 									"version": null
 								}
 							}],
