@@ -1196,6 +1196,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "CustomFunctionsRuntime",
+							"apiVersion": "1.4",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.64.0.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "RibbonApi",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -2033,6 +2044,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "CustomFunctionsRuntime",
+							"apiVersion": "1.4",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.15601.20148",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "RibbonApi",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -2426,6 +2448,11 @@
 						{
 							"name": "CustomFunctionsRuntime",
 							"apiVersion": "1.3",
+							"availability": "GA"
+						},
+						{
+							"name": "CustomFunctionsRuntime",
+							"apiVersion": "1.4",
 							"availability": "GA"
 						},
 						{
