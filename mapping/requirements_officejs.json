@@ -16,411 +16,358 @@
 						"TaskPaneApp"
 					],
 					"supportedExtensionPoints": [],
-				"supportedRequirementSets": [
-					{
-						"name": "ExcelApi",
-						"apiVersion": "1.1",
-						"supportedProductVersions": [
-							{
+					"supportedRequirementSets": [{
+							"name": "ExcelApi",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "15.0.0.0",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "ExcelApi",
-						"apiVersion": "1.2",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "15.0.0.0",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "ExcelApi",
-						"apiVersion": "1.3",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.3",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "15.0.0.0",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "ExcelApi",
-						"apiVersion": "1.4",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.4",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "15.0.0.0",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "ExcelApi",
-						"apiVersion": "1.5",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.5",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "15.0.0.0",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "ExcelApi",
-						"apiVersion": "1.6",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.6",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "15.0.0.0",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "ExcelApi",
-						"apiVersion": "1.7",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.7",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "16.0.0.0",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "ExcelApi",
-						"apiVersion": "1.8",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.8",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "16.0.0.0",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "ExcelApi",
-						"apiVersion": "1.9",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.9",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "16.0.0.0",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "ExcelApi",
-						"apiVersion": "1.10",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.10",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "16.0.0.0",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "ExcelApi",
-						"apiVersion": "1.11",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.11",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "16.35.0.0",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "ExcelApi",
-						"apiVersion": "1.12",
-						"supportedProductVersions": [
-							{
-								"from": {
-									"build": "16.40.0.0",
-									"version": null
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.12",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.40.0.0",
+										"version": null
+									}
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "ExcelApi",
-						"apiVersion": "1.13",
-						"supportedProductVersions": [
-							{
-								"from": {
-									"build": "16.50.0.0",
-									"version": null
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.13",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.50.0.0",
+										"version": null
+									}
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "ExcelApi",
-						"apiVersion": "1.14",
-						"supportedProductVersions": [
-							{
-								"from": {
-									"build": "16.53.0.0",
-									"version": null
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.14",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.53.0.0",
+										"version": null
+									}
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "ExcelApi",
-						"apiVersion": "1.15",
-						"supportedProductVersions": [
-							{
-								"from": {
-									"build": "16.59.0.0",
-									"version": null
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.15",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.59.0.0",
+										"version": null
+									}
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "ExcelApi",
-						"apiVersion": "1.16",
-						"supportedProductVersions": [
-							{
-								"from": {
-									"build": "2.66.0.0",
-									"version": null
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.16",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "2.66.0.0",
+										"version": null
+									}
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "OpenBrowserWindowApi",
-						"apiVersion": "1.1",
-						"supportedProductVersions": [
-							{
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "OpenBrowserWindowApi",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "16.0.0.0",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "File",
-						"apiVersion": "1.1",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "File",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "2.2",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "BindingEvents",
-						"apiVersion": "1.1",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "BindingEvents",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "1.14",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "DialogApi",
-						"apiVersion": "1.1",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "DialogApi",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "1.22",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "DialogApi",
-						"apiVersion": "1.2",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "DialogApi",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "16.37.0.0",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "DocumentEvents",
-						"apiVersion": "1.1",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "DocumentEvents",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "1.14",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "MatrixBindings",
-						"apiVersion": "1.1",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "MatrixBindings",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "1.14",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "MatrixCoercion",
-						"apiVersion": "1.1",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "MatrixCoercion",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "1.14",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "Selection",
-						"apiVersion": "1.1",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "Selection",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "1.14",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "Settings",
-						"apiVersion": "1.1",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "Settings",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "1.14",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "TableBindings",
-						"apiVersion": "1.1",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "TableBindings",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "1.14",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "TableCoercion",
-						"apiVersion": "1.1",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "TableCoercion",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "1.14",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "TextBindings",
-						"apiVersion": "1.1",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "TextBindings",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "1.14",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "TextCoercion",
-						"apiVersion": "1.1",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "TextCoercion",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "1.14",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					},
-					{
-						"name": "ImageCoercion",
-						"apiVersion": "1.1",
-						"supportedProductVersions": [
-							{
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "ImageCoercion",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
 								"from": {
 									"build": "1.14",
 									"version": null
 								}
-							}
-						],
-						"availability": "GA"
-					}
-				],
+							}],
+							"availability": "GA"
+						}
+					],
 					"supportedMethods": [{
 							"name": "Binding.addHandlerAsync",
 							"apiVersion": "1.1",
@@ -791,148 +738,125 @@
 					"supportedExtensionPoints": [{
 						"code": "addin_command"
 					}],
-					"supportedRequirementSets": [
-						{
+					"supportedRequirementSets": [{
 							"name": "ExcelApi",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.0.203.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.0.203.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.2",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.0.501.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.0.501.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.3",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.0.1003.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.0.1003.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.4",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.0.524.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.0.524.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.5",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.0.524.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.0.524.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.6",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.0.524.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.0.524.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.7",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.0.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.0.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.8",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.0.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.0.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.9",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.0.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.0.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.10",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.0.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.0.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.11",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.33.0.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.33.0.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
@@ -1003,365 +927,309 @@
 						{
 							"name": "SharedRuntime",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.38.0.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.38.0.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "KeyboardShortcuts",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.55.0.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.55.0.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "OpenBrowserWindowApi",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.0.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.0.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "File",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.0.524.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.0.524.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "BindingEvents",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.0.203.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.0.203.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "DialogApi",
 							"apiVersion": "1.2",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.37.510.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.37.510.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "IdentityAPI",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.0.1004.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.0.1004.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "IdentityAPI",
 							"apiVersion": "1.2",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.31.0.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.31.0.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "IdentityAPI",
 							"apiVersion": "1.3",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.40.0.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.40.0.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Pdffile",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.0.203.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.0.203.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Settings",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.0.203.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.0.203.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "DocumentEvents",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "MatrixBindings",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "MatrixCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "Selection",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableBindings",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TableCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TextBindings",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "TextCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.13",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.13",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ImageCoercion",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "1.14",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "1.14",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "AddinCommands",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.0.201.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.0.201.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "AddinCommands",
 							"apiVersion": "1.2",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.44.0.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.44.0.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CompressedFile",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "2.22",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "2.22",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomFunctionsRuntime",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.403.1000",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.403.1000",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomFunctionsRuntime",
 							"apiVersion": "1.2",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.28.0.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.28.0.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomFunctionsRuntime",
 							"apiVersion": "1.3",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.40.0.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.40.0.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "RibbonApi",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.38.0.0",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.38.0.0",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
@@ -1756,158 +1624,135 @@
 					"supportedExtensionPoints": [{
 						"code": "addin_command"
 					}],
-					"supportedRequirementSets": [
-						{
+					"supportedRequirementSets": [{
 							"name": "ExcelApi",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.4266.1001",
-										"version": "1509"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.4266.1001",
+									"version": "1509"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.2",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.6741.2088",
-										"version": "1601"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.6741.2088",
+									"version": "1601"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.3",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.7369.2055",
-										"version": "1608"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.7369.2055",
+									"version": "1608"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.4",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.7870.2024",
-										"version": "1701"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.7870.2024",
+									"version": "1701"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.5",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.8067.2070",
-										"version": "1703"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.8067.2070",
+									"version": "1703"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.6",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.8201.2001",
-										"version": "1704"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.8201.2001",
+									"version": "1704"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.7",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.9001.2171",
-										"version": "1801"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.9001.2171",
+									"version": "1801"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.8",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.10336.10000",
-										"version": null
-									},
-									"to": {
-										"build": "16.0.10699.10000",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.10336.10000",
+									"version": null
 								},
-								{
-									"from": {
-										"build": "16.0.10730.20102",
-										"version": "1808"
-									}
+								"to": {
+									"build": "16.0.10699.10000",
+									"version": null
 								}
-							],
+							},
+							{
+							"from": {
+								"build": "16.0.10730.20102",
+								"version": "1808"
+								}
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.9",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.11425.20204",
-										"version": "1903"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.11425.20204",
+									"version": "1903"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.10",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.11929.20306",
-										"version": "1907"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.11929.20306",
+									"version": "1907"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.11",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.12527.20470",
-										"version": "2002"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.12527.20470",
+									"version": "2002"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
@@ -1978,124 +1823,109 @@
 						{
 							"name": "OpenBrowserWindowApi",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.11001.20074",
-										"version": "1704"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.11001.20074",
+									"version": "1704"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "SharedRuntime",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.12527.20092",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.12527.20092",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "KeyboardShortcuts",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.14701.10000",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.14701.10000",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "File",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.8326.2062",
-										"version": "1706"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.8326.2062",
+									"version": "1706"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "IdentityAPI",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.8625.2003",
-										"version": "1709"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.8625.2003",
+									"version": "1709"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "IdentityAPI",
 							"apiVersion": "1.2",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.12228.20002",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.12228.20002",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "IdentityAPI",
 							"apiVersion": "1.3",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.13127.20002",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.13127.20002",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "15.0.4855.1000",
-										"version": null
-									},
-									"to": {
-										"build": "15.9.9999.9999",
-										"version": null
-									}
-								},
-								{
-									"from": {
-										"build": "16.0.4390.1000",
-										"version": null
-									},
-									"to": {
-										"build": "16.0.5999.1000",
-										"version": null
-									}
-								},
-								{
-									"from": {
-										"build": "16.0.6741.0000",
-										"version": "1602"
-									}
-								}
+							"supportedProductVersions": [{
+                                "from": {
+                                    "build": "15.0.4855.1000",
+                                    "version": null
+                                },
+                                "to": {
+                                    "build": "15.9.9999.9999",
+                                    "version": null
+                                    }
+                                },
+                                {
+                                    "from": {
+                                        "build": "16.0.4390.1000",
+                                        "version": null
+                                    },
+                                    "to": {
+                                        "build": "16.0.5999.1000",
+                                        "version": null
+                                    }                                    
+                                },
+                                {
+                                    "from": {
+                                        "build": "16.0.6741.0000",
+                                        "version": "1602"
+                                    }
+                                }
 							],
 							"availability": "GA"
 						},
@@ -2165,38 +1995,32 @@
 						{
 							"name": "AddinCommands",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "AddinCommands",
 							"apiVersion": "1.2",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.13530.20064"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.13530.20064"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CompressedFile",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.8431.2079",
-										"version": "1701"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.8431.2079",
+									"version": "1701"
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
@@ -2208,77 +2032,65 @@
 							"name": "DataAnalytics.PowerBI",
 							"apiVersion": "1.1",
 							"availability": "GA",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.9310.0"
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.9310.0"
 								}
-							]
+							}]
 						},
 						{
 							"name": "CustomFunctionsRuntime",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.11425.20156",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.11425.20156",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomFunctionsRuntime",
 							"apiVersion": "1.2",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.11929.20934",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.11929.20934",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "CustomFunctionsRuntime",
 							"apiVersion": "1.3",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.13127.20296",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.13127.20296",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "RibbonApi",
 							"apiVersion": "1.1",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.12527.20264",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.12527.20264",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						},
 						{
 							"name": "RibbonApi",
 							"apiVersion": "1.2",
-							"supportedProductVersions": [
-								{
-									"from": {
-										"build": "16.0.13519.20000",
-										"version": null
-									}
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.13519.20000",
+									"version": null
 								}
-							],
+							}],
 							"availability": "GA"
 						}
 					],
@@ -2460,8 +2272,7 @@
 					"supportedExtensionPoints": [{
 						"code": "addin_command"
 					}],
-					"supportedRequirementSets": [
-						{
+					"supportedRequirementSets": [{
 							"name": "ExcelApi",
 							"apiVersion": "1.1",
 							"availability": "GA"
