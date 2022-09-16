@@ -195,7 +195,7 @@
 							"supportedProductVersions": [
 								{
 									"from": {
-										"build": "2.66.0.0",
+										"build": "16.66.0.0",
 										"version": null
 									}
 								}
@@ -917,7 +917,7 @@
 							"supportedProductVersions": [
 								{
 									"from": {
-										"build": "16.65.0.0",
+										"build": "16.64.0.0",
 										"version": null
 									}
 								}
