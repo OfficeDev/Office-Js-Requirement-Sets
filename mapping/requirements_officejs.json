@@ -936,6 +936,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "SharedRuntime",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.52.0.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "KeyboardShortcuts",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -1854,6 +1865,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "SharedRuntime",
+							"apiVersion": "1.2",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.14326.20508",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "KeyboardShortcuts",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -2377,6 +2399,11 @@
 						{
 							"name": "SharedRuntime",
 							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "SharedRuntime",
+							"apiVersion": "1.2",
 							"availability": "GA"
 						},
 						{
