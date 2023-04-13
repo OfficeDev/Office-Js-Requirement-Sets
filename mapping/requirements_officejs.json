@@ -7230,7 +7230,84 @@
 								}
 							}],
 							"availability": "GA"
-                        },
+                        			},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.6",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.1.990.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+                        			},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.7",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.1.990.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+                        			},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.8",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.1.990.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+                        			},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.9",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.1.990.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+                        			},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.10",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.1.990.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+                        			},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.11",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.1.990.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+                        			},
+						{
+							"name": "Mailbox",
+							"apiVersion": "1.12",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.1.990.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+                        			},
 						{
 							"name": "OpenBrowserWindowApi",
 							"apiVersion": "1.1",
