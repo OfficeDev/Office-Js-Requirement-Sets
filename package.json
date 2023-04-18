@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/OfficeDev/Office-Js-Requirement-Sets#readme",
   "devDependencies": {
-    "ajv-cli": "^3.0.0"
+    "ajv-cli": "^5.0.0"
   }
 }
