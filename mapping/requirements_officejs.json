@@ -2832,6 +2832,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "WordApi",
+							"apiVersion": "1.6",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.76.0.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "OpenBrowserWindowApi",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -3636,6 +3647,17 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "16.70.0.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "WordApi",
+							"apiVersion": "1.6",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.76.0.0",
 									"version": null
 								}
 							}],
@@ -4499,6 +4521,11 @@
 							"availability": "GA"
 						},
 						{
+							"name": "WordApi",
+							"apiVersion": "1.6",
+							"availability": "GA"
+						},
+						{
 							"name": "SharedRuntime",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -4950,6 +4977,17 @@
 								"from": {
 									"build": "16.0.16130.20332",
 									"version": "2302"
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "WordApi",
+							"apiVersion": "1.6",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.16731.20234",
+									"version": "2308"
 								}
 							}],
 							"availability": "GA"
