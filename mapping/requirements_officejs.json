@@ -2572,6 +2572,11 @@
 						},
 						{
 							"name": "RibbonApi",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "RibbonApi",
 							"apiVersion": "1.2",
 							"availability": "GA"
 						}
@@ -6067,11 +6072,6 @@
 						},
 						{
 							"name": "SharedRuntime",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "RibbonApi",
 							"apiVersion": "1.1",
 							"availability": "GA"
 						}
