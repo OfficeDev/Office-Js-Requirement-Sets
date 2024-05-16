@@ -2579,6 +2579,11 @@
 							"name": "RibbonApi",
 							"apiVersion": "1.2",
 							"availability": "GA"
+						},
+						{
+							"name": "DevicePermissionService",
+							"apiVersion": "1.1",
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
@@ -2758,6 +2763,11 @@
 						},
 						{
 							"name": "TextBinding.setDataAsync",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "DevicePermissionService.requestPermissions",
 							"apiVersion": "1.1",
 							"availability": "GA"
 						}
@@ -4685,6 +4695,11 @@
 							"name": "AddinCommands",
 							"apiVersion": "1.2",
 							"availability": "GA"
+						},
+						{
+							"name": "DevicePermissionService",
+							"apiVersion": "1.1",
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
@@ -4919,6 +4934,11 @@
 						},
 						{
 							"name": "TextBinding.setDataAsync",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "DevicePermissionService.requestPermissions",
 							"apiVersion": "1.1",
 							"availability": "GA"
 						}
@@ -6074,6 +6094,11 @@
 							"name": "SharedRuntime",
 							"apiVersion": "1.1",
 							"availability": "GA"
+						},
+						{
+							"name": "DevicePermissionService",
+							"apiVersion": "1.1",
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
@@ -6143,6 +6168,11 @@
 						},
 						{
 							"name": "Settings.set",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "DevicePermissionService.requestPermissions",
 							"apiVersion": "1.1",
 							"availability": "GA"
 						}
@@ -7438,7 +7468,7 @@
 								}
 							}],
 							"availability": "GA"
-                        			},
+						},
 						{
 							"name": "Mailbox",
 							"apiVersion": "1.13",
@@ -7449,7 +7479,7 @@
 								}
 							}],
 							"availability": "GA"
-                        			},
+						},
 						{
 							"name": "OpenBrowserWindowApi",
 							"apiVersion": "1.1",
