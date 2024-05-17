@@ -2765,11 +2765,6 @@
 							"name": "TextBinding.setDataAsync",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						},
-						{
-							"name": "DevicePermissionService.requestPermissions",
-							"apiVersion": "1.1",
-							"availability": "GA"
 						}
 					]
 				}
@@ -4936,11 +4931,6 @@
 							"name": "TextBinding.setDataAsync",
 							"apiVersion": "1.1",
 							"availability": "GA"
-						},
-						{
-							"name": "DevicePermissionService.requestPermissions",
-							"apiVersion": "1.1",
-							"availability": "GA"
 						}
 					]
 				},
@@ -6168,11 +6158,6 @@
 						},
 						{
 							"name": "Settings.set",
-							"apiVersion": "1.1",
-							"availability": "GA"
-						},
-						{
-							"name": "DevicePermissionService.requestPermissions",
 							"apiVersion": "1.1",
 							"availability": "GA"
 						}
