@@ -2579,6 +2579,11 @@
 							"name": "RibbonApi",
 							"apiVersion": "1.2",
 							"availability": "GA"
+						},
+						{
+							"name": "DevicePermissionService",
+							"apiVersion": "1.1",
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
@@ -4685,6 +4690,11 @@
 							"name": "AddinCommands",
 							"apiVersion": "1.2",
 							"availability": "GA"
+						},
+						{
+							"name": "DevicePermissionService",
+							"apiVersion": "1.1",
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
@@ -6074,6 +6084,11 @@
 							"name": "SharedRuntime",
 							"apiVersion": "1.1",
 							"availability": "GA"
+						},
+						{
+							"name": "DevicePermissionService",
+							"apiVersion": "1.1",
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
@@ -7438,7 +7453,7 @@
 								}
 							}],
 							"availability": "GA"
-                        			},
+						},
 						{
 							"name": "Mailbox",
 							"apiVersion": "1.13",
@@ -7449,7 +7464,7 @@
 								}
 							}],
 							"availability": "GA"
-                        			},
+						},
 						{
 							"name": "OpenBrowserWindowApi",
 							"apiVersion": "1.1",
