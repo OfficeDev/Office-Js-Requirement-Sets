@@ -7812,7 +7812,18 @@
 								}
 							}],
 							"availability": "GA"
-						}						
+						},
+						{
+							"name": "DevicePermissionService",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.20.7480.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						}
 					],
 					"supportedMethods": []
 				}
