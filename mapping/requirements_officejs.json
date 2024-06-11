@@ -5078,7 +5078,7 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "16.0.17628.20110",
-									"version": "2311"
+									"version": "2405"
 								}
 							}],
 							"availability": "GA"
