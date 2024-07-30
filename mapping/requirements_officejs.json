@@ -4680,6 +4680,11 @@
 							"availability": "GA"
 						},
 						{
+							"name": "RibbonApi",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
 							"name": "Selection",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -6127,6 +6132,11 @@
 						{
 							"name": "PowerPointApi",
 							"apiVersion": "1.5",
+							"availability": "GA"
+						},
+						{
+							"name": "RibbonApi",
+							"apiVersion": "1.1",
 							"availability": "GA"
 						},
 						{
