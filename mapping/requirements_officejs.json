@@ -4013,6 +4013,17 @@
 								}
 							}],
 							"availability": "GA"
+						},
+						{
+							"name": "RibbonApi",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.57.105.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
@@ -5297,6 +5308,17 @@
 								}
 							}],
 							"availability": "GA"
+						},
+						{
+							"name": "RibbonApi",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.14827.10000",
+									"version": null
+								}
+							}],
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
@@ -5955,6 +5977,17 @@
 								}
 							}],
 							"availability": "GA"
+						},
+						{
+							"name": "RibbonApi",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.57.105.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
@@ -6471,6 +6504,17 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "16.0.13127.20002",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "RibbonApi",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.14827.10000",
 									"version": null
 								}
 							}],
