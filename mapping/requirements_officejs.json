@@ -2879,7 +2879,7 @@
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.85.0.0",
+									"build": "16.88.0.0",
 									"version": null
 								}
 							}],
@@ -3733,7 +3733,7 @@
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.85.0.0",
+									"build": "16.88.0.0",
 									"version": null
 								}
 							}],
@@ -5115,8 +5115,8 @@
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.0.17628.20110",
-									"version": "2405"
+									"build": "16.0.17628.20114",
+									"version": "2408"
 								}
 							}],
 							"availability": "GA"
