@@ -5972,7 +5972,7 @@
 							"apiVersion": "1.6",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.64.804.0", // update to mac sept fork
+									"build": "16.90.930.0",
 									"version": null
 								}
 							}],
@@ -6430,7 +6430,7 @@
 							"apiVersion": "1.6",
 							"supportedProductVersions": [{
 								"from": {
-									"build": "16.0.18121.30226", // update to sept fork
+									"build": "16.0.18129.20030",
 									"version": null
 								}
 							}],
