@@ -1072,6 +1072,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "NestedAppAuth",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.89.901.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "Pdffile",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -1970,6 +1981,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "NestedAppAuth",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.18025.20000",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -2483,6 +2505,11 @@
 						{
 							"name": "IdentityAPI",
 							"apiVersion": "1.3",
+							"availability": "GA"
+						},
+						{
+							"name": "NestedAppAuth",
+							"apiVersion": "1.1",
 							"availability": "GA"
 						},
 						{
@@ -3795,6 +3822,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "NestedAppAuth",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.89.901.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "BindingEvents",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -4631,6 +4669,11 @@
 							"availability": "GA"
 						},
 						{
+							"name": "NestedAppAuth",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
 							"name": "BindingEvents",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -5194,6 +5237,17 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "16.0.13127.20002",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "NestedAppAuth",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.18025.20000",
 									"version": null
 								}
 							}],
@@ -5913,6 +5967,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "NestedAppAuth",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.89.901.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "PowerPointApi",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -6151,6 +6216,11 @@
 						{
 							"name": "IdentityAPI",
 							"apiVersion": "1.3",
+							"availability": "GA"
+						},
+						{
+							"name": "NestedAppAuth",
+							"apiVersion": "1.1",
 							"availability": "GA"
 						},
 						{
@@ -6531,6 +6601,17 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "16.0.13127.20002",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "NestedAppAuth",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.18025.20000",
 									"version": null
 								}
 							}],
@@ -7193,7 +7274,7 @@
 								}
 							}],
 							"availability": "GA"
-						}
+						},
 						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
@@ -7238,6 +7319,17 @@
 							}],
 							"availability": "GA"
 						},
+						{
+							"name": "NestedAppAuth",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.18025.20000",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						}
 					],
 					"supportedMethods": []
 				},
