@@ -7184,6 +7184,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "Mailbox",
+							"apiVersion": "1.15",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.20.8190.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "OpenBrowserWindowApi",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
