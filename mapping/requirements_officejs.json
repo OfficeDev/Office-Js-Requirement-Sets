@@ -1990,7 +1990,7 @@
                                     "to": {
                                         "build": "16.0.5999.1000",
                                         "version": null
-                                    }                                    
+                                    }
                                 },
                                 {
                                     "from": {
@@ -5180,7 +5180,7 @@
                                     "to": {
                                         "build": "16.0.5999.1000",
                                         "version": null
-                                    }                                    
+                                    }
                                 },
                                 {
                                     "from": {
@@ -6017,6 +6017,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "PowerPointApi",
+							"apiVersion": "1.7",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.92.1130.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "SharedRuntime",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -6219,6 +6230,11 @@
 						{
 							"name": "PowerPointApi",
 							"apiVersion": "1.6",
+							"availability": "GA"
+						},
+						{
+							"name": "PowerPointApi",
+							"apiVersion": "1.7",
 							"availability": "GA"
 						},
 						{
@@ -6475,6 +6491,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "PowerPointApi",
+							"apiVersion": "1.7",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.18324.20030",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "SharedRuntime",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -6518,7 +6545,7 @@
                                     "to": {
                                         "build": "16.0.5999.1000",
                                         "version": null
-                                    }                                    
+                                    }
                                 },
                                 {
                                     "from": {
