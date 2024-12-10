@@ -379,6 +379,17 @@
 								}
 							}],
 							"availability": "GA"
+						},
+						{
+							"name": "NestedAppAuth",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "2.89",
+									"version": null
+								}
+							}],
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
@@ -1066,6 +1077,17 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "16.40.0.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "NestedAppAuth",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.89.901.0",
 									"version": null
 								}
 							}],
@@ -1964,6 +1986,17 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "16.0.13127.20002",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "NestedAppAuth",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.18025.20000",
 									"version": null
 								}
 							}],
@@ -3104,6 +3137,17 @@
 								}
 							}],
 							"availability": "GA"
+						},
+						{
+							"name": "NestedAppAuth",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "2.89",
+									"version": null
+								}
+							}],
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
@@ -3811,6 +3855,17 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "16.40.0.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "NestedAppAuth",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.89.901.0",
 									"version": null
 								}
 							}],
@@ -5238,6 +5293,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "NestedAppAuth",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.18025.20000",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "BindingEvents",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -5703,6 +5769,17 @@
 								}
 							}],
 							"availability": "GA"
+						},
+						{
+							"name": "NestedAppAuth",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "2.89",
+									"version": null
+								}
+							}],
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
@@ -5945,6 +6022,17 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "16.40.0.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "NestedAppAuth",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.89.901.0",
 									"version": null
 								}
 							}],
@@ -6569,6 +6657,17 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "16.0.13127.20002",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "NestedAppAuth",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.18025.20000",
 									"version": null
 								}
 							}],
@@ -7242,7 +7341,7 @@
 								}
 							}],
 							"availability": "GA"
-						}
+						},
 						{
 							"name": "DialogApi",
 							"apiVersion": "1.1",
@@ -7287,6 +7386,17 @@
 							}],
 							"availability": "GA"
 						},
+						{
+							"name": "NestedAppAuth",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "15.20.4871.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						}
 					],
 					"supportedMethods": []
 				},
@@ -7650,6 +7760,17 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "15.1.990.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "NestedAppAuth",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "2.89",
 									"version": null
 								}
 							}],
