@@ -1913,7 +1913,7 @@
 							"supportedProductVersions": [
 								{
 									"from": {
-										"build": "16.0.18429.20010",
+										"build": "16.0.18429.20032",
 										"version": "2302"
 									}
 								}
