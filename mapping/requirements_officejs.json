@@ -229,6 +229,19 @@
 							"availability": "GA"
 						},
 						{
+							"name": "ExcelApi",
+							"apiVersion": "1.19",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.96.0.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
 							"name": "OpenBrowserWindowApi",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -977,6 +990,19 @@
 							"availability": "GA"
 						},
 						{
+							"name": "ExcelApi",
+							"apiVersion": "1.19",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.96.0.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
 							"name": "SharedRuntime",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -1290,6 +1316,17 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "16.64.0.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "CustomFunctionsRuntime",
+							"apiVersion": "1.5",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.96.0.0",
 									"version": null
 								}
 							}],
@@ -1921,6 +1958,19 @@
 							"availability": "GA"
 						},
 						{
+							"name": "ExcelApi",
+							"apiVersion": "1.19",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.0.18730.20088",
+										"version": "2504"
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
 							"name": "OpenBrowserWindowApi",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -2188,6 +2238,17 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "16.0.15601.20148",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "CustomFunctionsRuntime",
+							"apiVersion": "1.5",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.18730.20088",
 									"version": null
 								}
 							}],
@@ -2485,6 +2546,11 @@
 							"availability": "GA"
 						},
 						{
+							"name": "ExcelApi",
+							"apiVersion": "1.19",
+							"availability": "GA"
+						},
+						{
 							"name": "SharedRuntime",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -2612,6 +2678,11 @@
 						{
 							"name": "CustomFunctionsRuntime",
 							"apiVersion": "1.4",
+							"availability": "GA"
+						},
+						{
+							"name": "CustomFunctionsRuntime",
+							"apiVersion": "1.5",
 							"availability": "GA"
 						},
 						{
