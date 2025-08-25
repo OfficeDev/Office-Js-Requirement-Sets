@@ -242,6 +242,19 @@
 							"availability": "GA"
 						},
 						{
+							"name": "ExcelApi",
+							"apiVersion": "1.20",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.100.0.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
 							"name": "OpenBrowserWindowApi",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -996,6 +1009,19 @@
 								{
 									"from": {
 										"build": "16.96.0.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.20",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.100.0.0",
 										"version": null
 									}
 								}
@@ -1965,8 +1991,31 @@
 									"from": {
 										"build": "16.0.18730.20088",
 										"version": "2504"
-									}
+								    }
 								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.20",
+							"supportedProductVersions": [
+								{
+                                    "from": {
+                                        "build": "16.0.19127.20120",
+                                        "version": "2508"
+                                    },
+                                    "to": {
+                                        "build": "16.0.19127.20299",
+                                        "version": "2508"
+                                    }
+                                },
+                                {
+                                    "from": {
+                                        "build": "16.0.19201.20002",
+                                        "version": "2509"
+                                    }
+                                }
 							],
 							"availability": "GA"
 						},
@@ -2548,6 +2597,11 @@
 						{
 							"name": "ExcelApi",
 							"apiVersion": "1.19",
+							"availability": "GA"
+						},
+						{
+							"name": "ExcelApi",
+							"apiVersion": "1.20",
 							"availability": "GA"
 						},
 						{
