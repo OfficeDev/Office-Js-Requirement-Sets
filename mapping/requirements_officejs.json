@@ -6208,6 +6208,28 @@
 							"availability": "GA"
 						},
 						{
+							"name": "PowerPointApi",
+							"apiVersion": "1.9",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.100.824.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "PowerPointApi",
+							"apiVersion": "1.10",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.105.1210.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "SharedRuntime",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -6420,6 +6442,16 @@
 						{
 							"name": "PowerPointApi",
 							"apiVersion": "1.8",
+							"availability": "GA"
+						},
+						{
+							"name": "PowerPointApi",
+							"apiVersion": "1.9",
+							"availability": "GA"
+						},
+						{
+							"name": "PowerPointApi",
+							"apiVersion": "1.10",
 							"availability": "GA"
 						},
 						{
@@ -6692,6 +6724,28 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "16.0.18730.20030",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "PowerPointApi",
+							"apiVersion": "1.9",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.19127.20154",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "PowerPointApi",
+							"apiVersion": "1.10",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.19610.20002",
 									"version": null
 								}
 							}],
