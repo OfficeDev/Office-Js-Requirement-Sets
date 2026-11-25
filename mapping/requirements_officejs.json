@@ -255,6 +255,19 @@
 							"availability": "GA"
 						},
 						{
+							"name": "ExcelApi",
+							"apiVersion": "1.21",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.102.0.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
 							"name": "OpenBrowserWindowApi",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -1029,6 +1042,19 @@
 							"availability": "GA"
 						},
 						{
+							"name": "ExcelApi",
+							"apiVersion": "1.21",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.110.1.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
 							"name": "SharedRuntime",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -1381,7 +1407,34 @@
 								}
 							],
 							"availability": "GA"
+						},
+						{
+							"name": "RibbonApi",
+							"apiVersion": "1.3",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.109.1.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
+						},
+						{
+							"name": "TaskPaneApi",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [
+								{
+									"from": {
+										"build": "16.100.4.0",
+										"version": null
+									}
+								}
+							],
+							"availability": "GA"
 						}
+
 					],
 					"supportedMethods": [{
 							"name": "Binding.addHandlerAsync",
@@ -2020,6 +2073,19 @@
 							"availability": "GA"
 						},
 						{
+							"name": "ExcelApi",
+							"apiVersion": "1.21",
+							"supportedProductVersions": [
+                                {
+                                    "from": {
+                                        "build": "16.0.20131.20090",
+                                        "version": "2606"
+                                    }
+                                }
+							],
+							"availability": "GA"
+						},
+						{
 							"name": "OpenBrowserWindowApi",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -2324,6 +2390,28 @@
 								}
 							}],
 							"availability": "GA"
+						},
+						{
+							"name": "RibbonApi",
+							"apiVersion": "1.3",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.20112.15190",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "TaskPaneApi",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.19029.20004",
+									"version": null
+								}
+							}],
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
@@ -2605,6 +2693,11 @@
 							"availability": "GA"
 						},
 						{
+							"name": "ExcelApi",
+							"apiVersion": "1.21",
+							"availability": "GA"
+						},
+						{
 							"name": "SharedRuntime",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -2750,7 +2843,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "RibbonApi",
+							"apiVersion": "1.3",
+							"availability": "GA"
+						},
+						{
 							"name": "DevicePermissionService",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "TaskPaneApi",
 							"apiVersion": "1.1",
 							"availability": "GA"
 						}
@@ -4215,6 +4318,39 @@
 								}
 							}],
 							"availability": "GA"
+						},
+						{
+							"name": "RibbonApi",
+							"apiVersion": "1.3",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.109.1.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "TaskPaneApi",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.100.4.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "KeyboardShortcuts",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.88.0.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
 						}
 					],
 					"supportedMethods": [{
@@ -4867,6 +5003,11 @@
 							"availability": "GA"
 						},
 						{
+							"name": "KeyboardShortcuts",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
 							"name": "MatrixBindings",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -4892,6 +5033,11 @@
 							"availability": "GA"
 						},
 						{
+							"name": "RibbonApi",
+							"apiVersion": "1.3",
+							"availability": "GA"
+						},
+						{
 							"name": "Selection",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -4908,6 +5054,11 @@
 						},
 						{
 							"name": "TableCoercion",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "TaskPaneApi",
 							"apiVersion": "1.1",
 							"availability": "GA"
 						},
@@ -5407,6 +5558,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "KeyboardShortcuts",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.17928.20114",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "BindingEvents",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -5522,6 +5684,28 @@
 							"supportedProductVersions": [{
 								"from": {
 									"build": "16.0.14827.10000",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "RibbonApi",
+							"apiVersion": "1.3",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.20112.15190",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "TaskPaneApi",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.19029.20004",
 									"version": null
 								}
 							}],
@@ -6120,6 +6304,17 @@
 							"availability": "GA"
 						},
 						{
+							"name": "KeyboardShortcuts",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.105.2.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "PowerPointApi",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
@@ -6250,7 +6445,29 @@
 								}
 							}],
 							"availability": "GA"
-						}
+						},
+						{
+							"name": "RibbonApi",
+							"apiVersion": "1.3",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.109.1.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "TaskPaneApi",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.100.4.0",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
 					],
 					"supportedMethods": [{
 							"name": "Document.addHandlerAsync",
@@ -6405,6 +6622,11 @@
 							"availability": "GA"
 						},
 						{
+							"name": "KeyboardShortcuts",
+							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
 							"name": "PowerPointApi",
 							"apiVersion": "1.1",
 							"availability": "GA"
@@ -6457,6 +6679,11 @@
 						{
 							"name": "RibbonApi",
 							"apiVersion": "1.1",
+							"availability": "GA"
+						},
+						{
+							"name": "RibbonApi",
+							"apiVersion": "1.3",
 							"availability": "GA"
 						},
 						{
@@ -6852,11 +7079,44 @@
 							"availability": "GA"
 						},
 						{
+							"name": "KeyboardShortcuts",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.19628.20150",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
 							"name": "RibbonApi",
 							"apiVersion": "1.1",
 							"supportedProductVersions": [{
 								"from": {
 									"build": "16.0.14827.10000",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "RibbonApi",
+							"apiVersion": "1.3",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.20112.15190",
+									"version": null
+								}
+							}],
+							"availability": "GA"
+						},
+						{
+							"name": "TaskPaneApi",
+							"apiVersion": "1.1",
+							"supportedProductVersions": [{
+								"from": {
+									"build": "16.0.19029.20004",
 									"version": null
 								}
 							}],
